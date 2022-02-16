@@ -123,7 +123,7 @@ func main() {
 			var cont SourceHousesOverview
 			err := json.Unmarshal(bytes, &cont)
 			if err != nil {
-				log.Fatalf("[error] Issue when unmarshaling data. Town is %s", town)
+				log.Fatalf("[error] Issue when unmarshaling data. Town is %s. Err: %s", town, err)
 			}
 
 			for _, value := range cont.Houses.HouseList {
