@@ -19,18 +19,12 @@ const (
 	TibiaDataAPIhost = "https://dev.tibiadata.com"
 )
 
-type AssetsHouseWorlds struct {
-	Worlds []string `json:"worlds"`
-}
-type AssetsHouseTowns struct {
-	Towns []string `json:"towns"`
-}
-
 type AssetsHouse struct {
 	HouseID   int    `json:"house_id"`
 	Town      string `json:"town"`
 	HouseType string `json:"type"`
 }
+
 type AssetsHouses struct {
 	Worlds []string      `json:"worlds"`
 	Towns  []string      `json:"towns"`
@@ -101,7 +95,6 @@ func main() {
 
 	// Find of this to get div with class BoxContent
 	doc.Find(".TableContentContainer .TableContent tbody tr").First().Next().Children().Each(func(index int, s *goquery.Selection) {
-
 		// generate list of worlds that have houses/guildhalls
 		s.Find("select").Children().NextAll().Each(func(i int, selection *goquery.Selection) {
 			// collect the world
@@ -124,12 +117,14 @@ func main() {
 
 		switch res.StatusCode() {
 		case http.StatusOK:
-
 			// Get byte slice from string.
 			bytes := []byte(res.Body())
 
 			var cont SourceHousesOverview
-			json.Unmarshal([]byte(bytes), &cont)
+			err := json.Unmarshal(bytes, &cont)
+			if err != nil {
+				log.Fatalf("[error] Issue when unmarshaling data. Town is %s. Err: %s", town, err)
+			}
 
 			for _, value := range cont.Houses.HouseList {
 				AssetsHouses.Houses = append(AssetsHouses.Houses, AssetsHouse{
