@@ -119,7 +119,7 @@ func main() {
 	for _, town := range AssetsHouses.Towns {
 		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
 
-		ApiUrl := TibiaDataAPIhost + "/v3/houses/world/" + AssetsHouses.Worlds[0] + "/town/" + url.QueryEscape(town)
+		ApiUrl := TibiaDataAPIhost + "/v3/houses/" + AssetsHouses.Worlds[0] + "/" + url.QueryEscape(town)
 		res, err = client.R().Get(ApiUrl)
 
 		switch res.StatusCode() {
