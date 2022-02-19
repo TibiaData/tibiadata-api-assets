@@ -118,7 +118,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 		return err
 	}
 
-	const raceEndpoint = "https://www.tibia.com/library/?subtopic=creatures&race="
+	var raceEndpoint = "https://" + TibiaComHost + "/library/?subtopic=creatures&race="
 
 	var safe []string
 
