@@ -78,10 +78,10 @@ func main() {
 
 	// overriding host with env
 	if isEnvExist("TIBIADATA_PROXY") {
-		TibiaComhost = "https://" + getEnv("TIBIADATA_PROXY", "www.tibia.com")
+		TibiaComhost = getEnv("TIBIADATA_PROXY", "www.tibia.com")
 	}
 
-	res, err = client.R().Get(TibiaComhost + "/community/?subtopic=houses")
+	res, err = client.R().Get("https://" + TibiaComhost + "/community/?subtopic=houses")
 
 	switch res.StatusCode() {
 	case http.StatusOK:
