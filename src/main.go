@@ -92,7 +92,7 @@ func main() {
 		log.Fatalf("[error] Issue writing the min file. Error: %s", err)
 	}
 
-	file, err := json.MarshalIndent(builder, "", " ")
+	file, err := json.MarshalIndent(builder, "", "  ")
 	if err != nil {
 		log.Fatalf("[error] Issue with marshaling main file. Error: %s", err)
 	}
