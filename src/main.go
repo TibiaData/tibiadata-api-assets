@@ -112,6 +112,9 @@ func main() {
 	for _, town := range AssetsHouses.Towns {
 		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
 
+		// sleep for 500 ms for ratelimit on dev.tibiadata.com
+		time.Sleep(500 * time.Millisecond)
+
 		ApiUrl := TibiaDataAPIhost + "/v3/houses/" + AssetsHouses.Worlds[0] + "/" + url.QueryEscape(town)
 		res, err = client.R().Get(ApiUrl)
 
