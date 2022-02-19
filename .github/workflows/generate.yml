@@ -1,0 +1,35 @@
+name: generate
+
+on:
+  schedule:
+    - cron: "37 13 * * *" # this is UTC
+  workflow_dispatch:
+
+jobs:
+  assets-generator:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+
+      - name: Run go code
+        run: |
+          go run ./src
+
+      - name: Generate checksum for data.json
+        run: |
+          sha256sum data.json > sha256sum.txt
+          sha512sum data.json > sha512sum.txt
+        working-directory: docs
+
+      - uses: EndBug/add-and-commit@v8
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          add: "['live', 'modules']"
+          # The message for the commit
+          message: ".github/workflows/generate.yml: workflow generated JSON"
