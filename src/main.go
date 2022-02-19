@@ -96,12 +96,9 @@ func main() {
 }
 
 // isEnvExist func - check if environment var is set
-func isEnvExist(key string) bool {
-	if _, ok := os.LookupEnv(key); ok {
-		return true
-	}
-
-	return false
+func isEnvExist(key string) (ok bool) {
+	_, ok = os.LookupEnv(key)
+	return
 }
 
 // getEnv func - read an environment or return a default value
