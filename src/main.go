@@ -106,7 +106,7 @@ func isEnvExist(key string) bool {
 
 // getEnv func - read an environment or return a default value
 func getEnv(key string, defaultVal string) string {
-	if value, exists := os.LookupEnv(key); exists {
+	if value, exists := os.LookupEnv(key); exists && value != "" {
 		return value
 	}
 
