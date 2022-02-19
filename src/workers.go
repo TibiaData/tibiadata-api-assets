@@ -24,9 +24,9 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 
 	switch res.StatusCode() {
 	case http.StatusOK:
-		log.Printf("[info] Retrieving data successfully from tibia.com. Endpoint: %s\n", endpoint)
+		log.Println("[info] Retrieving data successfully from tibia.com.")
 	default:
-		return nil, fmt.Errorf("Issue when collecting data from tibia.com. StatusCode: %d, Endpoint: %s", res.StatusCode(), endpoint)
+		return nil, fmt.Errorf("Issue when collecting data from tibia.com. StatusCode: %d", res.StatusCode())
 	}
 
 	// Convert body to io.Reader
@@ -37,7 +37,7 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 	// Load the HTML document
 	doc, err := goquery.NewDocumentFromReader(resIo2)
 	if err != nil {
-		return nil, fmt.Errorf("Issue with goquery reading document. Error: %s, Endpoint: %s", err, endpoint)
+		return nil, fmt.Errorf("Issue with goquery reading document. Error: %s", err)
 	}
 
 	return doc, nil
@@ -46,7 +46,7 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 func (b *Builder) housesWorker(client *resty.Client) error {
 	doc, err := getDoc(client, "https://"+TibiaComHost+"/community/?subtopic=houses")
 	if err != nil {
-		return err
+		return fmt.Errorf("%s, func: housesWorker", err)
 	}
 
 	// Find of this to get div with class BoxContent
@@ -115,10 +115,10 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 func (b *Builder) creaturesWorker(client *resty.Client) error {
 	doc, err := getDoc(client, "https://"+TibiaComHost+"/library/?subtopic=creatures")
 	if err != nil {
-		return err
+		return fmt.Errorf("%s, func: creaturesWorker", err)
 	}
 
-	var raceEndpoint = "https://" + TibiaComHost + "/library/?subtopic=creatures&race="
+	const raceEndpointIndexer = "&race="
 
 	var safe []string
 
@@ -129,7 +129,8 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 			return
 		}
 
-		endpoint := strings.TrimPrefix(url, raceEndpoint)
+		raceIndex := strings.Index(url, raceEndpointIndexer)
+		endpoint := strings.TrimPrefix(url[raceIndex:], raceEndpointIndexer)
 		safe = append(safe, endpoint)
 		pluralName := s.Find("div").First().Text()
 		fields := strings.Fields(pluralName)
@@ -201,7 +202,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 func (b *Builder) spellsWorker(client *resty.Client) error {
 	doc, err := getDoc(client, "https://"+TibiaComHost+"/library/?subtopic=spells")
 	if err != nil {
-		return err
+		return fmt.Errorf("%s, func: spellsWorker", err)
 	}
 
 	doc.Find("table.TableContent ~ table tr").First().NextAll().Each(func(index int, s *goquery.Selection) {

@@ -81,42 +81,29 @@ func main() {
 		log.Fatalf("[error] Issue with fansitesWorker. Error: %s", err)
 	}
 
-	log.Println("[info] Generating output file: data.json and data.min.json")
-	minFile, err := json.Marshal(builder)
+	log.Println("[info] Generating output file: output.json")
+	outputFile, err := json.Marshal(builder)
 	if err != nil {
-		log.Fatalf("[error] Issue with marshaling min file. Error: %s", err)
+		log.Fatalf("[error] Issue with marshaling output file. Error: %s", err)
 	}
 
-	err = os.WriteFile("./docs/data.min.json", minFile, 0644)
+	err = os.WriteFile("output.json", outputFile, 0644)
 	if err != nil {
 		log.Fatalf("[error] Issue writing the min file. Error: %s", err)
-	}
-
-	file, err := json.MarshalIndent(builder, "", "  ")
-	if err != nil {
-		log.Fatalf("[error] Issue with marshaling main file. Error: %s", err)
-	}
-
-	err = os.WriteFile("./docs/data.json", file, 0644)
-	if err != nil {
-		log.Fatalf("[error] Issue writing the main file. Error: %s", err)
 	}
 
 	log.Println("[info] TibiaData assets generator finished.")
 }
 
 // isEnvExist func - check if environment var is set
-func isEnvExist(key string) bool {
-	if _, ok := os.LookupEnv(key); ok {
-		return true
-	}
-
-	return false
+func isEnvExist(key string) (ok bool) {
+	_, ok = os.LookupEnv(key)
+	return
 }
 
 // getEnv func - read an environment or return a default value
 func getEnv(key string, defaultVal string) string {
-	if value, exists := os.LookupEnv(key); exists {
+	if value, exists := os.LookupEnv(key); exists && value != "" {
 		return value
 	}
 
