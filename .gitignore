@@ -13,3 +13,9 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# TibiaData specific ignores
+docs/data.json
+docs/data.min.json
+docs/sha256sum.txt
+docs/sha512sum.txt
