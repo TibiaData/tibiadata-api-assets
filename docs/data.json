@@ -5026,5 +5026,3479 @@
       "town": "Yalahar",
       "type": "guildhall"
     }
+  ],
+  "creatures": [
+    {
+      "endpoint": "acidblob",
+      "plural_name": "Acid Blobs",
+      "name": "Acid Blob"
+    },
+    {
+      "endpoint": "cultacolyte",
+      "plural_name": "Acolytes Of The Cult",
+      "name": "Acolyte Of The Cult"
+    },
+    {
+      "endpoint": "cultadept",
+      "plural_name": "Adepts Of The Cult",
+      "name": "Adept Of The Cult"
+    },
+    {
+      "endpoint": "adultgoanna",
+      "plural_name": "Adult Goannas",
+      "name": "Adult Goanna"
+    },
+    {
+      "endpoint": "afflictedstrider",
+      "plural_name": "Afflicted Striders",
+      "name": "Afflicted Strider"
+    },
+    {
+      "endpoint": "amazon",
+      "plural_name": "Amazons",
+      "name": "Amazon"
+    },
+    {
+      "endpoint": "ancientscarab",
+      "plural_name": "Ancient Scarabs",
+      "name": "Ancient Scarab"
+    },
+    {
+      "endpoint": "animatedfeather",
+      "plural_name": "Animated Feathers",
+      "name": "Animated Feather"
+    },
+    {
+      "endpoint": "arachnophobica",
+      "plural_name": "Arachnophobicas",
+      "name": "Arachnophobica"
+    },
+    {
+      "endpoint": "arcticfaun",
+      "plural_name": "Arctic Fauns",
+      "name": "Arctic Faun"
+    },
+    {
+      "endpoint": "armadile",
+      "plural_name": "Armadiles",
+      "name": "Armadile"
+    },
+    {
+      "endpoint": "assassin",
+      "plural_name": "Assassins",
+      "name": "Assassin"
+    },
+    {
+      "endpoint": "frogazure",
+      "plural_name": "Azure Frogs",
+      "name": "Azure Frog"
+    },
+    {
+      "endpoint": "badger",
+      "plural_name": "Badgers",
+      "name": "Badger"
+    },
+    {
+      "endpoint": "bandit",
+      "plural_name": "Bandits",
+      "name": "Bandit"
+    },
+    {
+      "endpoint": "banshee",
+      "plural_name": "Banshees",
+      "name": "Banshee"
+    },
+    {
+      "endpoint": "barbarianbloodwalker",
+      "plural_name": "Barbarian Bloodwalkers",
+      "name": "Barbarian Bloodwalker"
+    },
+    {
+      "endpoint": "barbarianbrutetamer",
+      "plural_name": "Barbarian Brutetamers",
+      "name": "Barbarian Brutetamer"
+    },
+    {
+      "endpoint": "barbarianheadsplitter",
+      "plural_name": "Barbarian Headsplitters",
+      "name": "Barbarian Headsplitter"
+    },
+    {
+      "endpoint": "barbarianskullhunter",
+      "plural_name": "Barbarian Skullhunters",
+      "name": "Barbarian Skullhunter"
+    },
+    {
+      "endpoint": "barklessdevotee",
+      "plural_name": "Barkless Devotees",
+      "name": "Barkless Devotee"
+    },
+    {
+      "endpoint": "barklessfanatic",
+      "plural_name": "Barkless Fanatics",
+      "name": "Barkless Fanatic"
+    },
+    {
+      "endpoint": "bashmu",
+      "plural_name": "Bashmus",
+      "name": "Bashmu"
+    },
+    {
+      "endpoint": "bat",
+      "plural_name": "Bats",
+      "name": "Bat"
+    },
+    {
+      "endpoint": "bear",
+      "plural_name": "Bears",
+      "name": "Bear"
+    },
+    {
+      "endpoint": "behemoth",
+      "plural_name": "Behemoths",
+      "name": "Behemoth"
+    },
+    {
+      "endpoint": "wraith",
+      "plural_name": "Betrayed Wraiths",
+      "name": "Betrayed Wraith"
+    },
+    {
+      "endpoint": "bitingbook",
+      "plural_name": "Biting Books",
+      "name": "Biting Book"
+    },
+    {
+      "endpoint": "blackknight",
+      "plural_name": "Black Knights",
+      "name": "Black Knight"
+    },
+    {
+      "endpoint": "blacksphinxacolyte",
+      "plural_name": "Black Sphinx Acolytes",
+      "name": "Black Sphinx Acolyte"
+    },
+    {
+      "endpoint": "blemishedspawn",
+      "plural_name": "Blemished Spawns",
+      "name": "Blemished Spawn"
+    },
+    {
+      "endpoint": "blightwalker",
+      "plural_name": "Blightwalkers",
+      "name": "Blightwalker"
+    },
+    {
+      "endpoint": "bloodbeast",
+      "plural_name": "Blood Beasts",
+      "name": "Blood Beast"
+    },
+    {
+      "endpoint": "bloodcrab",
+      "plural_name": "Blood Crabs",
+      "name": "Blood Crab"
+    },
+    {
+      "endpoint": "bloodhand",
+      "plural_name": "Blood Hands",
+      "name": "Blood Hand"
+    },
+    {
+      "endpoint": "bloodpriest",
+      "plural_name": "Blood Priests",
+      "name": "Blood Priest"
+    },
+    {
+      "endpoint": "bluedjinn",
+      "plural_name": "Blue Djinns",
+      "name": "Blue Djinn"
+    },
+    {
+      "endpoint": "boar",
+      "plural_name": "Boars",
+      "name": "Boar"
+    },
+    {
+      "endpoint": "bogfrog",
+      "plural_name": "Bog Frogs",
+      "name": "Bog Frog"
+    },
+    {
+      "endpoint": "bograider",
+      "plural_name": "Bog Raiders",
+      "name": "Bog Raider"
+    },
+    {
+      "endpoint": "bonebeast",
+      "plural_name": "Bonebeasts",
+      "name": "Bonebeast"
+    },
+    {
+      "endpoint": "bonelord",
+      "plural_name": "Bonelords",
+      "name": "Bonelord"
+    },
+    {
+      "endpoint": "bonyseadevil",
+      "plural_name": "Bony Sea Devils",
+      "name": "Bony Sea Devil"
+    },
+    {
+      "endpoint": "boogy",
+      "plural_name": "Boogies",
+      "name": "Boogy"
+    },
+    {
+      "endpoint": "brachiodemon",
+      "plural_name": "Brachiodemons",
+      "name": "Brachiodemon"
+    },
+    {
+      "endpoint": "brainsquid",
+      "plural_name": "Brain Squids",
+      "name": "Brain Squid"
+    },
+    {
+      "endpoint": "braindeath",
+      "plural_name": "Braindeaths",
+      "name": "Braindeath"
+    },
+    {
+      "endpoint": "ghostlycrawler",
+      "plural_name": "Branchy Crawlers",
+      "name": "Branchy Crawler"
+    },
+    {
+      "endpoint": "breachbrood",
+      "plural_name": "Breach Broods",
+      "name": "Breach Brood"
+    },
+    {
+      "endpoint": "brimstonebug",
+      "plural_name": "Brimstone Bugs",
+      "name": "Brimstone Bug"
+    },
+    {
+      "endpoint": "degeneratedshaper",
+      "plural_name": "Broken Shapers",
+      "name": "Broken Shaper"
+    },
+    {
+      "endpoint": "bug",
+      "plural_name": "Bugs",
+      "name": "Bug"
+    },
+    {
+      "endpoint": "burningcursedbook",
+      "plural_name": "Burning Books",
+      "name": "Burning Cursedbook"
+    },
+    {
+      "endpoint": "burninggladiator",
+      "plural_name": "Burning Gladiators",
+      "name": "Burning Gladiator"
+    },
+    {
+      "endpoint": "bursterspectre",
+      "plural_name": "Burster Spectres",
+      "name": "Burster Spectre"
+    },
+    {
+      "endpoint": "butterflypurple",
+      "plural_name": "Butterflies",
+      "name": "Butterflypurple"
+    },
+    {
+      "endpoint": "calamary",
+      "plural_name": "Calamaries",
+      "name": "Calamary"
+    },
+    {
+      "endpoint": "capriciousphantom",
+      "plural_name": "Capricious Phantoms",
+      "name": "Capricious Phantom"
+    },
+    {
+      "endpoint": "carniphila",
+      "plural_name": "Carniphilas",
+      "name": "Carniphila"
+    },
+    {
+      "endpoint": "carnisylvansapling",
+      "plural_name": "Carnisylvan Saplings",
+      "name": "Carnisylvan Sapling"
+    },
+    {
+      "endpoint": "carrionworm",
+      "plural_name": "Carrion Worms",
+      "name": "Carrion Worm"
+    },
+    {
+      "endpoint": "cat",
+      "plural_name": "Cats",
+      "name": "Cat"
+    },
+    {
+      "endpoint": "cavechimera",
+      "plural_name": "Cave Chimeras",
+      "name": "Cave Chimera"
+    },
+    {
+      "endpoint": "cavedevourer",
+      "plural_name": "Cave Devourers",
+      "name": "Cave Devourer"
+    },
+    {
+      "endpoint": "caverat",
+      "plural_name": "Cave Rats",
+      "name": "Cave Rat"
+    },
+    {
+      "endpoint": "centipede",
+      "plural_name": "Centipedes",
+      "name": "Centipede"
+    },
+    {
+      "endpoint": "chakoyatoolshaper",
+      "plural_name": "Chakoya Toolshapers",
+      "name": "Chakoya Toolshaper"
+    },
+    {
+      "endpoint": "chakoyatribewarden",
+      "plural_name": "Chakoya Tribewardens",
+      "name": "Chakoya Tribewarden"
+    },
+    {
+      "endpoint": "chakoyawindcaller",
+      "plural_name": "Chakoya Windcallers",
+      "name": "Chakoya Windcaller"
+    },
+    {
+      "endpoint": "chasmspawn",
+      "plural_name": "Chasm Spawns",
+      "name": "Chasm Spawn"
+    },
+    {
+      "endpoint": "chicken",
+      "plural_name": "Chickens",
+      "name": "Chicken"
+    },
+    {
+      "endpoint": "chokingfear",
+      "plural_name": "Choking Fears",
+      "name": "Choking Fear"
+    },
+    {
+      "endpoint": "clayguardian",
+      "plural_name": "Clay Guardians",
+      "name": "Clay Guardian"
+    },
+    {
+      "endpoint": "cliffstrider",
+      "plural_name": "Cliff Striders",
+      "name": "Cliff Strider"
+    },
+    {
+      "endpoint": "cloakofterror",
+      "plural_name": "Cloaks Of Terror",
+      "name": "Cloak Of Terror"
+    },
+    {
+      "endpoint": "clomp",
+      "plural_name": "Clomps",
+      "name": "Clomp"
+    },
+    {
+      "endpoint": "cobraassassin",
+      "plural_name": "Cobra Assassins",
+      "name": "Cobra Assassin"
+    },
+    {
+      "endpoint": "cobrascout",
+      "plural_name": "Cobra Scouts",
+      "name": "Cobra Scout"
+    },
+    {
+      "endpoint": "cobravizier",
+      "plural_name": "Cobra Viziers",
+      "name": "Cobra Vizier"
+    },
+    {
+      "endpoint": "cobra",
+      "plural_name": "Cobras",
+      "name": "Cobra"
+    },
+    {
+      "endpoint": "charlatan",
+      "plural_name": "Corym Charlatans",
+      "name": "Corym Charlatan"
+    },
+    {
+      "endpoint": "skirmisher",
+      "plural_name": "Corym Skirmishers",
+      "name": "Corym Skirmisher"
+    },
+    {
+      "endpoint": "vanguard",
+      "plural_name": "Corym Vanguards",
+      "name": "Corym Vanguard"
+    },
+    {
+      "endpoint": "courageleech",
+      "plural_name": "Courage Leeches",
+      "name": "Courage Leech"
+    },
+    {
+      "endpoint": "crab",
+      "plural_name": "Crabs",
+      "name": "Crab"
+    },
+    {
+      "endpoint": "crawler",
+      "plural_name": "Crawlers",
+      "name": "Crawler"
+    },
+    {
+      "endpoint": "crazedbeggar",
+      "plural_name": "Crazed Beggars",
+      "name": "Crazed Beggar"
+    },
+    {
+      "endpoint": "crazedsummerrearguard",
+      "plural_name": "Crazed Summer Rearguards",
+      "name": "Crazed Summer Rearguard"
+    },
+    {
+      "endpoint": "crazedsummervanguard",
+      "plural_name": "Crazed Summer Vanguards",
+      "name": "Crazed Summer Vanguard"
+    },
+    {
+      "endpoint": "crazedwinterrearguard",
+      "plural_name": "Crazed Winter Rearguards",
+      "name": "Crazed Winter Rearguard"
+    },
+    {
+      "endpoint": "crazedwintervanguard",
+      "plural_name": "Crazed Winter Vanguards",
+      "name": "Crazed Winter Vanguard"
+    },
+    {
+      "endpoint": "crocodile",
+      "plural_name": "Crocodiles",
+      "name": "Crocodile"
+    },
+    {
+      "endpoint": "crustaceagigantica",
+      "plural_name": "Crustaceae Giganticae",
+      "name": "Crustacea Gigantica"
+    },
+    {
+      "endpoint": "cryptdefiler",
+      "plural_name": "Crypt Defilers",
+      "name": "Crypt Defiler"
+    },
+    {
+      "endpoint": "cryptshambler",
+      "plural_name": "Crypt Shamblers",
+      "name": "Crypt Shambler"
+    },
+    {
+      "endpoint": "cryptwarden",
+      "plural_name": "Crypt Wardens",
+      "name": "Crypt Warden"
+    },
+    {
+      "endpoint": "crystalspider",
+      "plural_name": "Crystal Spiders",
+      "name": "Crystal Spider"
+    },
+    {
+      "endpoint": "crystalcrusher",
+      "plural_name": "Crystalcrushers",
+      "name": "Crystalcrusher"
+    },
+    {
+      "endpoint": "cultbeliever",
+      "plural_name": "Cult Believers",
+      "name": "Cult Believer"
+    },
+    {
+      "endpoint": "cultenforcer",
+      "plural_name": "Cult Enforcers",
+      "name": "Cult Enforcer"
+    },
+    {
+      "endpoint": "cultscholar",
+      "plural_name": "Cult Scholars",
+      "name": "Cult Scholar"
+    },
+    {
+      "endpoint": "cursedbook",
+      "plural_name": "Cursed Books",
+      "name": "Cursed Book"
+    },
+    {
+      "endpoint": "cursedprospector",
+      "plural_name": "Cursed Prospectors",
+      "name": "Cursed Prospector"
+    },
+    {
+      "endpoint": "cyclops",
+      "plural_name": "Cyclopes",
+      "name": "Cyclops"
+    },
+    {
+      "endpoint": "cyclopsdrone",
+      "plural_name": "Cyclopes Drone",
+      "name": "Cyclops Drone"
+    },
+    {
+      "endpoint": "cyclopssmith",
+      "plural_name": "Cyclopes Smith",
+      "name": "Cyclops Smith"
+    },
+    {
+      "endpoint": "darkapprentice",
+      "plural_name": "Dark Apprentices",
+      "name": "Dark Apprentice"
+    },
+    {
+      "endpoint": "carnisylvandark",
+      "plural_name": "Dark Carnisylvans",
+      "name": "Dark Carnisylvan"
+    },
+    {
+      "endpoint": "darkfaun",
+      "plural_name": "Dark Fauns",
+      "name": "Dark Faun"
+    },
+    {
+      "endpoint": "darkmagician",
+      "plural_name": "Dark Magicians",
+      "name": "Dark Magician"
+    },
+    {
+      "endpoint": "darkmonk",
+      "plural_name": "Dark Monks",
+      "name": "Dark Monk"
+    },
+    {
+      "endpoint": "darktorturer",
+      "plural_name": "Dark Torturers",
+      "name": "Dark Torturer"
+    },
+    {
+      "endpoint": "asura",
+      "plural_name": "Dawnfire Asuras",
+      "name": "Dawnfire Asura"
+    },
+    {
+      "endpoint": "deathblob",
+      "plural_name": "Death Blobs",
+      "name": "Death Blob"
+    },
+    {
+      "endpoint": "deathlingscout",
+      "plural_name": "Deathling Scouts",
+      "name": "Deathling Scout"
+    },
+    {
+      "endpoint": "deathlingspellsinger",
+      "plural_name": "Deathling Spellsingers",
+      "name": "Deathling Spellsinger"
+    },
+    {
+      "endpoint": "deeplingguard",
+      "plural_name": "Deepling Guards",
+      "name": "Deepling Guard"
+    },
+    {
+      "endpoint": "deeplingscout",
+      "plural_name": "Deepling Scouts",
+      "name": "Deepling Scout"
+    },
+    {
+      "endpoint": "deeplingspellsinger",
+      "plural_name": "Deepling Spellsingers",
+      "name": "Deepling Spellsinger"
+    },
+    {
+      "endpoint": "deeplingwarrior",
+      "plural_name": "Deepling Warriors",
+      "name": "Deepling Warrior"
+    },
+    {
+      "endpoint": "deeplingworker",
+      "plural_name": "Deepling Workers",
+      "name": "Deepling Worker"
+    },
+    {
+      "endpoint": "deepworm",
+      "plural_name": "Deepworms",
+      "name": "Deepworm"
+    },
+    {
+      "endpoint": "deer",
+      "plural_name": "Deer",
+      "name": "Deer"
+    },
+    {
+      "endpoint": "defiler",
+      "plural_name": "Defilers",
+      "name": "Defiler"
+    },
+    {
+      "endpoint": "demonoutcast",
+      "plural_name": "Demon Outcasts",
+      "name": "Demon Outcast"
+    },
+    {
+      "endpoint": "demonskeleton",
+      "plural_name": "Demon Skeletons",
+      "name": "Demon Skeleton"
+    },
+    {
+      "endpoint": "demon",
+      "plural_name": "Demons",
+      "name": "Demon"
+    },
+    {
+      "endpoint": "destroyer",
+      "plural_name": "Destroyers",
+      "name": "Destroyer"
+    },
+    {
+      "endpoint": "devourer",
+      "plural_name": "Devourers",
+      "name": "Devourer"
+    },
+    {
+      "endpoint": "diabolicimp",
+      "plural_name": "Diabolic Imps",
+      "name": "Diabolic Imp"
+    },
+    {
+      "endpoint": "diamondservant",
+      "plural_name": "Diamond Servants",
+      "name": "Diamond Servant"
+    },
+    {
+      "endpoint": "diremaw",
+      "plural_name": "Diremaws",
+      "name": "Diremaw"
+    },
+    {
+      "endpoint": "distortedphantom",
+      "plural_name": "Distorted Phantoms",
+      "name": "Distorted Phantom"
+    },
+    {
+      "endpoint": "dog",
+      "plural_name": "Dogs",
+      "name": "Dog"
+    },
+    {
+      "endpoint": "dragonhatchling",
+      "plural_name": "Dragon Hatchlings",
+      "name": "Dragon Hatchling"
+    },
+    {
+      "endpoint": "dragonlordhatchling",
+      "plural_name": "Dragon Lord Hatchlings",
+      "name": "Dragon Lord Hatchling"
+    },
+    {
+      "endpoint": "dragonlord",
+      "plural_name": "Dragon Lords",
+      "name": "Dragon Lord"
+    },
+    {
+      "endpoint": "dragonling",
+      "plural_name": "Dragonlings",
+      "name": "Dragonling"
+    },
+    {
+      "endpoint": "dragon",
+      "plural_name": "Dragons",
+      "name": "Dragon"
+    },
+    {
+      "endpoint": "drakenabomination",
+      "plural_name": "Draken Abominations",
+      "name": "Draken Abomination"
+    },
+    {
+      "endpoint": "drakenelite",
+      "plural_name": "Draken Elites",
+      "name": "Draken Elite"
+    },
+    {
+      "endpoint": "drakenspellweaver",
+      "plural_name": "Draken Spellweavers",
+      "name": "Draken Spellweaver"
+    },
+    {
+      "endpoint": "drakenwarmaster",
+      "plural_name": "Draken Warmasters",
+      "name": "Draken Warmaster"
+    },
+    {
+      "endpoint": "draptor",
+      "plural_name": "Draptors",
+      "name": "Draptor"
+    },
+    {
+      "endpoint": "dreadintruder",
+      "plural_name": "Dread Intruders",
+      "name": "Dread Intruder"
+    },
+    {
+      "endpoint": "drillworm",
+      "plural_name": "Drillworms",
+      "name": "Drillworm"
+    },
+    {
+      "endpoint": "dromedary",
+      "plural_name": "Dromedaries",
+      "name": "Dromedary"
+    },
+    {
+      "endpoint": "apparitionofadruid",
+      "plural_name": "Druid's Apparitions",
+      "name": "Druid's Apparition"
+    },
+    {
+      "endpoint": "dwarfgeomancer",
+      "plural_name": "Dwarf Geomancers",
+      "name": "Dwarf Geomancer"
+    },
+    {
+      "endpoint": "dwarfguard",
+      "plural_name": "Dwarf Guards",
+      "name": "Dwarf Guard"
+    },
+    {
+      "endpoint": "dwarfminer",
+      "plural_name": "Dwarf Miners",
+      "name": "Dwarf Miner"
+    },
+    {
+      "endpoint": "dwarfsoldier",
+      "plural_name": "Dwarf Soldiers",
+      "name": "Dwarf Soldier"
+    },
+    {
+      "endpoint": "dwarf",
+      "plural_name": "Dwarfs",
+      "name": "Dwarf"
+    },
+    {
+      "endpoint": "dworcfleshhunter",
+      "plural_name": "Dworc Fleshhunters",
+      "name": "Dworc Fleshhunter"
+    },
+    {
+      "endpoint": "dworcvenomsniper",
+      "plural_name": "Dworc Venomsnipers",
+      "name": "Dworc Venomsniper"
+    },
+    {
+      "endpoint": "dworcvoodoomaster",
+      "plural_name": "Dworc Voodoomasters",
+      "name": "Dworc Voodoomaster"
+    },
+    {
+      "endpoint": "earthelemental",
+      "plural_name": "Earth Elementals",
+      "name": "Earth Elemental"
+    },
+    {
+      "endpoint": "efreet",
+      "plural_name": "Efreet",
+      "name": "Efreet"
+    },
+    {
+      "endpoint": "elderbonelord",
+      "plural_name": "Elder Bonelords",
+      "name": "Elder Bonelord"
+    },
+    {
+      "endpoint": "elderwyrm",
+      "plural_name": "Elder Wyrms",
+      "name": "Elder Wyrm"
+    },
+    {
+      "endpoint": "elephant",
+      "plural_name": "Elephants",
+      "name": "Elephant"
+    },
+    {
+      "endpoint": "elfarcanist",
+      "plural_name": "Elf Arcanists",
+      "name": "Elf Arcanist"
+    },
+    {
+      "endpoint": "elfscout",
+      "plural_name": "Elf Scouts",
+      "name": "Elf Scout"
+    },
+    {
+      "endpoint": "elf",
+      "plural_name": "Elves",
+      "name": "Elf"
+    },
+    {
+      "endpoint": "emeralddamselfly",
+      "plural_name": "Emerald Damselflies",
+      "name": "Emerald Damselfly"
+    },
+    {
+      "endpoint": "energeticbook",
+      "plural_name": "Energetic Books",
+      "name": "Energetic Book"
+    },
+    {
+      "endpoint": "energuardianoftales",
+      "plural_name": "Energuardians Of Tales",
+      "name": "Energuardian Of Tales"
+    },
+    {
+      "endpoint": "energyelemental",
+      "plural_name": "Energy Elementals",
+      "name": "Energy Elemental"
+    },
+    {
+      "endpoint": "enfeebledsilencer",
+      "plural_name": "Enfeebled Silencers",
+      "name": "Enfeebled Silencer"
+    },
+    {
+      "endpoint": "cultpriest",
+      "plural_name": "Enlighteneds Of The Cult",
+      "name": "Enlightened Of The Cult"
+    },
+    {
+      "endpoint": "crystalgolem",
+      "plural_name": "Enraged Crystal Golems",
+      "name": "Enraged Crystal Golem"
+    },
+    {
+      "endpoint": "enslaveddwarf",
+      "plural_name": "Enslaved Dwarfs",
+      "name": "Enslaved Dwarf"
+    },
+    {
+      "endpoint": "evilprospector",
+      "plural_name": "Evil Prospectors",
+      "name": "Evil Prospector"
+    },
+    {
+      "endpoint": "execowtioner",
+      "plural_name": "Execowtioners",
+      "name": "Execowtioner"
+    },
+    {
+      "endpoint": "caribbeanbat",
+      "plural_name": "Exotic Bats",
+      "name": "Exotic Bat"
+    },
+    {
+      "endpoint": "caribbeancavespider",
+      "plural_name": "Exotic Cave Spiders",
+      "name": "Exotic Cave Spider"
+    },
+    {
+      "endpoint": "eyelessdevourer",
+      "plural_name": "Eyeless Devourers",
+      "name": "Eyeless Devourer"
+    },
+    {
+      "endpoint": "falconknight",
+      "plural_name": "Falcon Knights",
+      "name": "Falcon Knight"
+    },
+    {
+      "endpoint": "falconpaladin",
+      "plural_name": "Falcon Paladins",
+      "name": "Falcon Paladin"
+    },
+    {
+      "endpoint": "faun",
+      "plural_name": "Fauns",
+      "name": "Faun"
+    },
+    {
+      "endpoint": "feralsphinx",
+      "plural_name": "Feral Sphinxes",
+      "name": "Feral Sphinx"
+    },
+    {
+      "endpoint": "feversleep",
+      "plural_name": "Feversleeps",
+      "name": "Feversleep"
+    },
+    {
+      "endpoint": "filthtoad",
+      "plural_name": "Filth Toads",
+      "name": "Filth Toad"
+    },
+    {
+      "endpoint": "firedevil",
+      "plural_name": "Fire Devils",
+      "name": "Fire Devil"
+    },
+    {
+      "endpoint": "fireelemental",
+      "plural_name": "Fire Elementals",
+      "name": "Fire Elemental"
+    },
+    {
+      "endpoint": "firestarter",
+      "plural_name": "Firestarters",
+      "name": "Firestarter"
+    },
+    {
+      "endpoint": "fish",
+      "plural_name": "Fish",
+      "name": "Fish"
+    },
+    {
+      "endpoint": "flamingo",
+      "plural_name": "Flamingos",
+      "name": "Flamingo"
+    },
+    {
+      "endpoint": "lostsoulweak",
+      "plural_name": "Flimsy Lost Souls",
+      "name": "Flimsy Lost Soul"
+    },
+    {
+      "endpoint": "floatingsavant",
+      "plural_name": "Floating Savants",
+      "name": "Floating Savant"
+    },
+    {
+      "endpoint": "flyingbook",
+      "plural_name": "Flying Books",
+      "name": "Flying Book"
+    },
+    {
+      "endpoint": "forestfury",
+      "plural_name": "Forest Furies",
+      "name": "Forest Fury"
+    },
+    {
+      "endpoint": "fox",
+      "plural_name": "Foxes",
+      "name": "Fox"
+    },
+    {
+      "endpoint": "frazzlemaw",
+      "plural_name": "Frazzlemaws",
+      "name": "Frazzlemaw"
+    },
+    {
+      "endpoint": "lostsoulhard",
+      "plural_name": "Freakish Lost Souls",
+      "name": "Freakish Lost Soul"
+    },
+    {
+      "endpoint": "frostdragonhatchling",
+      "plural_name": "Frost Dragon Hatchlings",
+      "name": "Frost Dragon Hatchling"
+    },
+    {
+      "endpoint": "frostdragon",
+      "plural_name": "Frost Dragons",
+      "name": "Frost Dragon"
+    },
+    {
+      "endpoint": "frostflowerasura",
+      "plural_name": "Frost Flower Asuras",
+      "name": "Frost Flower Asura"
+    },
+    {
+      "endpoint": "frostgiantess",
+      "plural_name": "Frost Giantesses",
+      "name": "Frost Giantess"
+    },
+    {
+      "endpoint": "frostgiant",
+      "plural_name": "Frost Giants",
+      "name": "Frost Giant"
+    },
+    {
+      "endpoint": "frosttroll",
+      "plural_name": "Frost Trolls",
+      "name": "Frost Troll"
+    },
+    {
+      "endpoint": "fury",
+      "plural_name": "Furies",
+      "name": "Fury"
+    },
+    {
+      "endpoint": "gangmember",
+      "plural_name": "Gang Members",
+      "name": "Gang Member"
+    },
+    {
+      "endpoint": "gargoyle",
+      "plural_name": "Gargoyles",
+      "name": "Gargoyle"
+    },
+    {
+      "endpoint": "gazerspectre",
+      "plural_name": "Gazer Spectres",
+      "name": "Gazer Spectre"
+    },
+    {
+      "endpoint": "gazer",
+      "plural_name": "Gazers",
+      "name": "Gazer"
+    },
+    {
+      "endpoint": "ghastlydragon",
+      "plural_name": "Ghastly Dragons",
+      "name": "Ghastly Dragon"
+    },
+    {
+      "endpoint": "ghost",
+      "plural_name": "Ghosts",
+      "name": "Ghost"
+    },
+    {
+      "endpoint": "ghoul",
+      "plural_name": "Ghouls",
+      "name": "Ghoul"
+    },
+    {
+      "endpoint": "giantspider",
+      "plural_name": "Giant Spiders",
+      "name": "Giant Spider"
+    },
+    {
+      "endpoint": "girtabliluwarrior",
+      "plural_name": "Girtablilu Warriors",
+      "name": "Girtablilu Warrior"
+    },
+    {
+      "endpoint": "gladiator",
+      "plural_name": "Gladiators",
+      "name": "Gladiator"
+    },
+    {
+      "endpoint": "gloomwolf",
+      "plural_name": "Gloom Wolves",
+      "name": "Gloom Wolf"
+    },
+    {
+      "endpoint": "gloothanemone",
+      "plural_name": "Glooth Anemones",
+      "name": "Glooth Anemone"
+    },
+    {
+      "endpoint": "gloothbandit",
+      "plural_name": "Glooth Bandits",
+      "name": "Glooth Bandit"
+    },
+    {
+      "endpoint": "gloothblob",
+      "plural_name": "Glooth Blobs",
+      "name": "Glooth Blob"
+    },
+    {
+      "endpoint": "gloothbrigand",
+      "plural_name": "Glooth Brigands",
+      "name": "Glooth Brigand"
+    },
+    {
+      "endpoint": "gloothgolem",
+      "plural_name": "Glooth Golems",
+      "name": "Glooth Golem"
+    },
+    {
+      "endpoint": "gnarlhound",
+      "plural_name": "Gnarlhounds",
+      "name": "Gnarlhound"
+    },
+    {
+      "endpoint": "goblinassassin",
+      "plural_name": "Goblin Assassins",
+      "name": "Goblin Assassin"
+    },
+    {
+      "endpoint": "goblinscavenger",
+      "plural_name": "Goblin Scavengers",
+      "name": "Goblin Scavenger"
+    },
+    {
+      "endpoint": "goblin",
+      "plural_name": "Goblins",
+      "name": "Goblin"
+    },
+    {
+      "endpoint": "goldenservant",
+      "plural_name": "Golden Servants",
+      "name": "Golden Servant"
+    },
+    {
+      "endpoint": "gozzler",
+      "plural_name": "Gozzlers",
+      "name": "Gozzler"
+    },
+    {
+      "endpoint": "graverobber",
+      "plural_name": "Grave Robbers",
+      "name": "Grave Robber"
+    },
+    {
+      "endpoint": "gravedigger",
+      "plural_name": "Gravediggers",
+      "name": "Gravedigger"
+    },
+    {
+      "endpoint": "greendjinn",
+      "plural_name": "Green Djinns",
+      "name": "Green Djinn"
+    },
+    {
+      "endpoint": "grimreaper",
+      "plural_name": "Grim Reapers",
+      "name": "Grim Reaper"
+    },
+    {
+      "endpoint": "grimeleech",
+      "plural_name": "Grimeleeches",
+      "name": "Grimeleech"
+    },
+    {
+      "endpoint": "gryphon",
+      "plural_name": "Gryphons",
+      "name": "Gryphon"
+    },
+    {
+      "endpoint": "guardianoftales",
+      "plural_name": "Guardians Of Tales",
+      "name": "Guardian Of Tales"
+    },
+    {
+      "endpoint": "guzzlemaw",
+      "plural_name": "Guzzlemaws",
+      "name": "Guzzlemaw"
+    },
+    {
+      "endpoint": "handofcursedfate",
+      "plural_name": "Hands Of Cursed Fate",
+      "name": "Hand Of Cursed Fate"
+    },
+    {
+      "endpoint": "hauntedtreeling",
+      "plural_name": "Haunted Treelings",
+      "name": "Haunted Treeling"
+    },
+    {
+      "endpoint": "hellfirefighter",
+      "plural_name": "Hellfire Fighters",
+      "name": "Hellfire Fighter"
+    },
+    {
+      "endpoint": "hellflayer",
+      "plural_name": "Hellflayers",
+      "name": "Hellflayer"
+    },
+    {
+      "endpoint": "hellhound",
+      "plural_name": "Hellhounds",
+      "name": "Hellhound"
+    },
+    {
+      "endpoint": "hellspawn",
+      "plural_name": "Hellspawns",
+      "name": "Hellspawn"
+    },
+    {
+      "endpoint": "hero",
+      "plural_name": "Heroes",
+      "name": "Hero"
+    },
+    {
+      "endpoint": "hideousfungus",
+      "plural_name": "Hideous Fungi",
+      "name": "Hideous Fungus"
+    },
+    {
+      "endpoint": "carnisylvanhulking",
+      "plural_name": "Hulking Carnisylvans",
+      "name": "Hulking Carnisylvan"
+    },
+    {
+      "endpoint": "humongousfungus",
+      "plural_name": "Humongous Fungi",
+      "name": "Humongous Fungus"
+    },
+    {
+      "endpoint": "hunter",
+      "plural_name": "Hunters",
+      "name": "Hunter"
+    },
+    {
+      "endpoint": "husky",
+      "plural_name": "Huskies",
+      "name": "Husky"
+    },
+    {
+      "endpoint": "hyaena",
+      "plural_name": "Hyaenas",
+      "name": "Hyaena"
+    },
+    {
+      "endpoint": "hydra",
+      "plural_name": "Hydras",
+      "name": "Hydra"
+    },
+    {
+      "endpoint": "icegolem",
+      "plural_name": "Ice Golems",
+      "name": "Ice Golem"
+    },
+    {
+      "endpoint": "icewitch",
+      "plural_name": "Ice Witches",
+      "name": "Ice Witch"
+    },
+    {
+      "endpoint": "icecoldbook",
+      "plural_name": "Icecold Books",
+      "name": "Icecold Book"
+    },
+    {
+      "endpoint": "infernaldemon",
+      "plural_name": "Infernal Demons",
+      "name": "Infernal Demon"
+    },
+    {
+      "endpoint": "infernalphantom",
+      "plural_name": "Infernal Phantoms",
+      "name": "Infernal Phantom"
+    },
+    {
+      "endpoint": "infernalist",
+      "plural_name": "Infernalists",
+      "name": "Infernalist"
+    },
+    {
+      "endpoint": "inkblob",
+      "plural_name": "Ink Blobs",
+      "name": "Ink Blob"
+    },
+    {
+      "endpoint": "insanesiren",
+      "plural_name": "Insane Sirens",
+      "name": "Insane Siren"
+    },
+    {
+      "endpoint": "insectswarm",
+      "plural_name": "Insect Swarms",
+      "name": "Insect Swarm"
+    },
+    {
+      "endpoint": "insectoidscout",
+      "plural_name": "Insectoid Scouts",
+      "name": "Insectoid Scout"
+    },
+    {
+      "endpoint": "insectoidworker",
+      "plural_name": "Insectoid Workers",
+      "name": "Insectoid Worker"
+    },
+    {
+      "endpoint": "instablebreachbrood",
+      "plural_name": "Instable Breach Broods",
+      "name": "Instable Breach Brood"
+    },
+    {
+      "endpoint": "instablesparkion",
+      "plural_name": "Instable Sparkions",
+      "name": "Instable Sparkion"
+    },
+    {
+      "endpoint": "ironservant",
+      "plural_name": "Iron Servants",
+      "name": "Iron Servant"
+    },
+    {
+      "endpoint": "ironblight",
+      "plural_name": "Ironblights",
+      "name": "Ironblight"
+    },
+    {
+      "endpoint": "islandtroll",
+      "plural_name": "Island Trolls",
+      "name": "Island Troll"
+    },
+    {
+      "endpoint": "jellyfish",
+      "plural_name": "Jellyfish",
+      "name": "Jellyfish"
+    },
+    {
+      "endpoint": "juggernaut",
+      "plural_name": "Juggernauts",
+      "name": "Juggernaut"
+    },
+    {
+      "endpoint": "juvenilebashmu",
+      "plural_name": "Juvenile Bashmus",
+      "name": "Juvenile Bashmu"
+    },
+    {
+      "endpoint": "killercaiman",
+      "plural_name": "Killer Caimans",
+      "name": "Killer Caiman"
+    },
+    {
+      "endpoint": "knightsapparition",
+      "plural_name": "Knight's Apparitions",
+      "name": "Knight's Apparition"
+    },
+    {
+      "endpoint": "knowledgeelemental",
+      "plural_name": "Knowledge Elementals",
+      "name": "Knowledge Elemental"
+    },
+    {
+      "endpoint": "kollos",
+      "plural_name": "Kollos",
+      "name": "Kollos"
+    },
+    {
+      "endpoint": "kongra",
+      "plural_name": "Kongras",
+      "name": "Kongra"
+    },
+    {
+      "endpoint": "ladybug",
+      "plural_name": "Ladybugs",
+      "name": "Ladybug"
+    },
+    {
+      "endpoint": "lamassu",
+      "plural_name": "Lamassus",
+      "name": "Lamassu"
+    },
+    {
+      "endpoint": "lancerbeetle",
+      "plural_name": "Lancer Beetles",
+      "name": "Lancer Beetle"
+    },
+    {
+      "endpoint": "larva",
+      "plural_name": "Larvas",
+      "name": "Larva"
+    },
+    {
+      "endpoint": "lavagolem",
+      "plural_name": "Lava Golems",
+      "name": "Lava Golem"
+    },
+    {
+      "endpoint": "lavablob",
+      "plural_name": "Lava Lurkers",
+      "name": "Lava Blob"
+    },
+    {
+      "endpoint": "lavafungus",
+      "plural_name": "Lavafungi",
+      "name": "Lavafungus"
+    },
+    {
+      "endpoint": "lavaworm",
+      "plural_name": "Lavaworms",
+      "name": "Lavaworm"
+    },
+    {
+      "endpoint": "leafgolem",
+      "plural_name": "Leaf Golems",
+      "name": "Leaf Golem"
+    },
+    {
+      "endpoint": "lich",
+      "plural_name": "Liches",
+      "name": "Lich"
+    },
+    {
+      "endpoint": "lion",
+      "plural_name": "Lions",
+      "name": "Lion"
+    },
+    {
+      "endpoint": "lizardchosen",
+      "plural_name": "Lizard Chosens",
+      "name": "Lizard Chosen"
+    },
+    {
+      "endpoint": "lizarddragonpriest",
+      "plural_name": "Lizard Dragon Priests",
+      "name": "Lizard Dragon Priest"
+    },
+    {
+      "endpoint": "lizardhighguard",
+      "plural_name": "Lizard High Guards",
+      "name": "Lizard High Guard"
+    },
+    {
+      "endpoint": "lizardlegionnaire",
+      "plural_name": "Lizard Legionnaires",
+      "name": "Lizard Legionnaire"
+    },
+    {
+      "endpoint": "lizardsentinel",
+      "plural_name": "Lizard Sentinels",
+      "name": "Lizard Sentinel"
+    },
+    {
+      "endpoint": "lizardsnakecharmer",
+      "plural_name": "Lizard Snakecharmers",
+      "name": "Lizard Snakecharmer"
+    },
+    {
+      "endpoint": "lizardtemplar",
+      "plural_name": "Lizard Templars",
+      "name": "Lizard Templar"
+    },
+    {
+      "endpoint": "lizardzaogun",
+      "plural_name": "Lizard Zaoguns",
+      "name": "Lizard Zaogun"
+    },
+    {
+      "endpoint": "lostdwarfbasher",
+      "plural_name": "Lost Bashers",
+      "name": "Lost Dwarfbasher"
+    },
+    {
+      "endpoint": "lostberserker",
+      "plural_name": "Lost Berserkers",
+      "name": "Lost Berserker"
+    },
+    {
+      "endpoint": "lostdwarfhusher",
+      "plural_name": "Lost Hushers",
+      "name": "Lost Dwarfhusher"
+    },
+    {
+      "endpoint": "lostsoul",
+      "plural_name": "Lost Souls",
+      "name": "Lost Soul"
+    },
+    {
+      "endpoint": "lostthrower",
+      "plural_name": "Lost Throwers",
+      "name": "Lost Thrower"
+    },
+    {
+      "endpoint": "lumberingcarnivor",
+      "plural_name": "Lumbering Carnivors",
+      "name": "Lumbering Carnivor"
+    },
+    {
+      "endpoint": "madscientist",
+      "plural_name": "Mad Scientists",
+      "name": "Mad Scientist"
+    },
+    {
+      "endpoint": "magmacrawler",
+      "plural_name": "Magma Crawlers",
+      "name": "Magma Crawler"
+    },
+    {
+      "endpoint": "mammoth",
+      "plural_name": "Mammoths",
+      "name": "Mammoth"
+    },
+    {
+      "endpoint": "mantaray",
+      "plural_name": "Manta Rays",
+      "name": "Manta Ray"
+    },
+    {
+      "endpoint": "manticore",
+      "plural_name": "Manticores",
+      "name": "Manticore"
+    },
+    {
+      "endpoint": "manyfaces",
+      "plural_name": "Many Faces",
+      "name": "Many Faces"
+    },
+    {
+      "endpoint": "marid",
+      "plural_name": "Marid",
+      "name": "Marid"
+    },
+    {
+      "endpoint": "marshstalker",
+      "plural_name": "Marsh Stalkers",
+      "name": "Marsh Stalker"
+    },
+    {
+      "endpoint": "earthelementalmassive",
+      "plural_name": "Massive Earth Elementals",
+      "name": "Massive Earth Elemental"
+    },
+    {
+      "endpoint": "energyelementalmassive",
+      "plural_name": "Massive Energy Elementals",
+      "name": "Massive Energy Elemental"
+    },
+    {
+      "endpoint": "hellfireelemental",
+      "plural_name": "Massive Fire Elementals",
+      "name": "Massive Fire Elemental"
+    },
+    {
+      "endpoint": "waterelementalmassive",
+      "plural_name": "Massive Water Elementals",
+      "name": "Massive Water Elemental"
+    },
+    {
+      "endpoint": "lostsoulmedium",
+      "plural_name": "Mean Lost Souls",
+      "name": "Mean Lost Soul"
+    },
+    {
+      "endpoint": "medusa",
+      "plural_name": "Medusae",
+      "name": "Medusa"
+    },
+    {
+      "endpoint": "menacingcarnivor",
+      "plural_name": "Menacing Carnivors",
+      "name": "Menacing Carnivor"
+    },
+    {
+      "endpoint": "mercuryblob",
+      "plural_name": "Mercury Blobs",
+      "name": "Mercury Blob"
+    },
+    {
+      "endpoint": "merlkin",
+      "plural_name": "Merlkins",
+      "name": "Merlkin"
+    },
+    {
+      "endpoint": "metalgargoyle",
+      "plural_name": "Metal Gargoyles",
+      "name": "Metal Gargoyle"
+    },
+    {
+      "endpoint": "asuranight",
+      "plural_name": "Midnight Asuras",
+      "name": "Midnight Asura"
+    },
+    {
+      "endpoint": "midnightpanther",
+      "plural_name": "Midnight Panthers",
+      "name": "Midnight Panther"
+    },
+    {
+      "endpoint": "minotauramazon",
+      "plural_name": "Minotaur Amazons",
+      "name": "Minotaur Amazon"
+    },
+    {
+      "endpoint": "minotaurarcher",
+      "plural_name": "Minotaur Archers",
+      "name": "Minotaur Archer"
+    },
+    {
+      "endpoint": "minotaurcultfollower",
+      "plural_name": "Minotaur Cult Followers",
+      "name": "Minotaur Cult Follower"
+    },
+    {
+      "endpoint": "minotaurcultprophet",
+      "plural_name": "Minotaur Cult Prophets",
+      "name": "Minotaur Cult Prophet"
+    },
+    {
+      "endpoint": "minotaurcultzealot",
+      "plural_name": "Minotaur Cult Zealots",
+      "name": "Minotaur Cult Zealot"
+    },
+    {
+      "endpoint": "minotaurguard",
+      "plural_name": "Minotaur Guards",
+      "name": "Minotaur Guard"
+    },
+    {
+      "endpoint": "minotaurhunter",
+      "plural_name": "Minotaur Hunters",
+      "name": "Minotaur Hunter"
+    },
+    {
+      "endpoint": "minotaurmage",
+      "plural_name": "Minotaur Mages",
+      "name": "Minotaur Mage"
+    },
+    {
+      "endpoint": "minotaur",
+      "plural_name": "Minotaurs",
+      "name": "Minotaur"
+    },
+    {
+      "endpoint": "mirrorimage",
+      "plural_name": "Mirror Images",
+      "name": "Mirror Image"
+    },
+    {
+      "endpoint": "misguidedmelee",
+      "plural_name": "Misguided Bullies",
+      "name": "Misguided Melee"
+    },
+    {
+      "endpoint": "misguidedranged",
+      "plural_name": "Misguided Thieves",
+      "name": "Misguided Ranged"
+    },
+    {
+      "endpoint": "monk",
+      "plural_name": "Monks",
+      "name": "Monk"
+    },
+    {
+      "endpoint": "lionmonk",
+      "plural_name": "Monks Of The Order",
+      "name": "Monk Of The Order"
+    },
+    {
+      "endpoint": "moohtahwarrior",
+      "plural_name": "Mooh'tah Warriors",
+      "name": "Mooh'tah Warrior"
+    },
+    {
+      "endpoint": "moohtant",
+      "plural_name": "Moohtants",
+      "name": "Moohtant"
+    },
+    {
+      "endpoint": "mouldphantom",
+      "plural_name": "Mould Phantoms",
+      "name": "Mould Phantom"
+    },
+    {
+      "endpoint": "mummy",
+      "plural_name": "Mummies",
+      "name": "Mummy"
+    },
+    {
+      "endpoint": "mutatedbat",
+      "plural_name": "Mutated Bats",
+      "name": "Mutated Bat"
+    },
+    {
+      "endpoint": "mutatedhuman",
+      "plural_name": "Mutated Humans",
+      "name": "Mutated Human"
+    },
+    {
+      "endpoint": "mutatedrat",
+      "plural_name": "Mutated Rats",
+      "name": "Mutated Rat"
+    },
+    {
+      "endpoint": "mutatedtiger",
+      "plural_name": "Mutated Tigers",
+      "name": "Mutated Tiger"
+    },
+    {
+      "endpoint": "necromancer",
+      "plural_name": "Necromancers",
+      "name": "Necromancer"
+    },
+    {
+      "endpoint": "nightfiend",
+      "plural_name": "Nightfiends",
+      "name": "Nightfiend"
+    },
+    {
+      "endpoint": "nightmarescion",
+      "plural_name": "Nightmare Scions",
+      "name": "Nightmare Scion"
+    },
+    {
+      "endpoint": "nightmare",
+      "plural_name": "Nightmares",
+      "name": "Nightmare"
+    },
+    {
+      "endpoint": "nightstalker",
+      "plural_name": "Nightstalkers",
+      "name": "Nightstalker"
+    },
+    {
+      "endpoint": "noblelion",
+      "plural_name": "Noble Lions",
+      "name": "Noble Lion"
+    },
+    {
+      "endpoint": "nomad",
+      "plural_name": "Nomads",
+      "name": "Nomad"
+    },
+    {
+      "endpoint": "northernpike",
+      "plural_name": "Northern Pikes",
+      "name": "Northern Pike"
+    },
+    {
+      "endpoint": "cultnovice",
+      "plural_name": "Novices Of The Cult",
+      "name": "Novice Of The Cult"
+    },
+    {
+      "endpoint": "nymph",
+      "plural_name": "Nymphs",
+      "name": "Nymph"
+    },
+    {
+      "endpoint": "ogrebrute",
+      "plural_name": "Ogre Brutes",
+      "name": "Ogre Brute"
+    },
+    {
+      "endpoint": "ogrerowdy",
+      "plural_name": "Ogre Rowdies",
+      "name": "Ogre Rowdy"
+    },
+    {
+      "endpoint": "ogreruffian",
+      "plural_name": "Ogre Ruffians",
+      "name": "Ogre Ruffian"
+    },
+    {
+      "endpoint": "ogresage",
+      "plural_name": "Ogre Sages",
+      "name": "Ogre Sage"
+    },
+    {
+      "endpoint": "ogresavage",
+      "plural_name": "Ogre Savages",
+      "name": "Ogre Savage"
+    },
+    {
+      "endpoint": "ogreshaman",
+      "plural_name": "Ogre Shamans",
+      "name": "Ogre Shaman"
+    },
+    {
+      "endpoint": "omnivora",
+      "plural_name": "Omnivoras",
+      "name": "Omnivora"
+    },
+    {
+      "endpoint": "orcberserker",
+      "plural_name": "Orc Berserkers",
+      "name": "Orc Berserker"
+    },
+    {
+      "endpoint": "orccultfanatic",
+      "plural_name": "Orc Cult Fanatics",
+      "name": "Orc Cult Fanatic"
+    },
+    {
+      "endpoint": "orccultinquisitor",
+      "plural_name": "Orc Cult Inquisitors",
+      "name": "Orc Cult Inquisitor"
+    },
+    {
+      "endpoint": "orccultminion",
+      "plural_name": "Orc Cult Minions",
+      "name": "Orc Cult Minion"
+    },
+    {
+      "endpoint": "orccultpriest",
+      "plural_name": "Orc Cult Priests",
+      "name": "Orc Cult Priest"
+    },
+    {
+      "endpoint": "orccultist",
+      "plural_name": "Orc Cultists",
+      "name": "Orc Cultist"
+    },
+    {
+      "endpoint": "orcleader",
+      "plural_name": "Orc Leaders",
+      "name": "Orc Leader"
+    },
+    {
+      "endpoint": "orcmarauder",
+      "plural_name": "Orc Marauders",
+      "name": "Orc Marauder"
+    },
+    {
+      "endpoint": "orcrider",
+      "plural_name": "Orc Riders",
+      "name": "Orc Rider"
+    },
+    {
+      "endpoint": "orcshaman",
+      "plural_name": "Orc Shamans",
+      "name": "Orc Shaman"
+    },
+    {
+      "endpoint": "orcspearman",
+      "plural_name": "Orc Spearmen",
+      "name": "Orc Spearman"
+    },
+    {
+      "endpoint": "orcwarlord",
+      "plural_name": "Orc Warlords",
+      "name": "Orc Warlord"
+    },
+    {
+      "endpoint": "orcwarrior",
+      "plural_name": "Orc Warriors",
+      "name": "Orc Warrior"
+    },
+    {
+      "endpoint": "orclops",
+      "plural_name": "Orclops Doomhaulers",
+      "name": "Orclops "
+    },
+    {
+      "endpoint": "orclopsravager",
+      "plural_name": "Orclops Ravagers",
+      "name": "Orclops Ravager"
+    },
+    {
+      "endpoint": "orc",
+      "plural_name": "Orcs",
+      "name": "Orc"
+    },
+    {
+      "endpoint": "orewalker",
+      "plural_name": "Orewalkers",
+      "name": "Orewalker"
+    },
+    {
+      "endpoint": "paladinsapparition",
+      "plural_name": "Paladin's Apparitions",
+      "name": "Paladin's Apparition"
+    },
+    {
+      "endpoint": "panda",
+      "plural_name": "Pandas",
+      "name": "Panda"
+    },
+    {
+      "endpoint": "parrot",
+      "plural_name": "Parrots",
+      "name": "Parrot"
+    },
+    {
+      "endpoint": "penguin",
+      "plural_name": "Penguins",
+      "name": "Penguin"
+    },
+    {
+      "endpoint": "phantasm",
+      "plural_name": "Phantasms",
+      "name": "Phantasm"
+    },
+    {
+      "endpoint": "pigeon",
+      "plural_name": "Pigeons",
+      "name": "Pigeon"
+    },
+    {
+      "endpoint": "pig",
+      "plural_name": "Pigs",
+      "name": "Pig"
+    },
+    {
+      "endpoint": "piratbombardier",
+      "plural_name": "Pirat Bombardiers",
+      "name": "Pirat Bombardier"
+    },
+    {
+      "endpoint": "piratcutthroat",
+      "plural_name": "Pirat Cutthroats",
+      "name": "Pirat Cutthroat"
+    },
+    {
+      "endpoint": "piratmate",
+      "plural_name": "Pirat Mates",
+      "name": "Pirat Mate"
+    },
+    {
+      "endpoint": "piratscoundrel",
+      "plural_name": "Pirat Scoundrels",
+      "name": "Pirat Scoundrel"
+    },
+    {
+      "endpoint": "piratebuccaneer",
+      "plural_name": "Pirate Buccaneers",
+      "name": "Pirate Buccaneer"
+    },
+    {
+      "endpoint": "piratecorsair",
+      "plural_name": "Pirate Corsairs",
+      "name": "Pirate Corsair"
+    },
+    {
+      "endpoint": "piratecutthroat",
+      "plural_name": "Pirate Cutthroats",
+      "name": "Pirate Cutthroat"
+    },
+    {
+      "endpoint": "pirateghost",
+      "plural_name": "Pirate Ghosts",
+      "name": "Pirate Ghost"
+    },
+    {
+      "endpoint": "piratemarauder",
+      "plural_name": "Pirate Marauders",
+      "name": "Pirate Marauder"
+    },
+    {
+      "endpoint": "pirateskeleton",
+      "plural_name": "Pirate Skeletons",
+      "name": "Pirate Skeleton"
+    },
+    {
+      "endpoint": "pixie",
+      "plural_name": "Pixies",
+      "name": "Pixie"
+    },
+    {
+      "endpoint": "plaguesmith",
+      "plural_name": "Plaguesmiths",
+      "name": "Plaguesmith"
+    },
+    {
+      "endpoint": "poacher",
+      "plural_name": "Poachers",
+      "name": "Poacher"
+    },
+    {
+      "endpoint": "poisonspider",
+      "plural_name": "Poison Spiders",
+      "name": "Poison Spider"
+    },
+    {
+      "endpoint": "carnisylvanpoisonous",
+      "plural_name": "Poisonous Carnisylvans",
+      "name": "Poisonous Carnisylvan"
+    },
+    {
+      "endpoint": "polarbear",
+      "plural_name": "Polar Bears",
+      "name": "Polar Bear"
+    },
+    {
+      "endpoint": "pooka",
+      "plural_name": "Pookas",
+      "name": "Pooka"
+    },
+    {
+      "endpoint": "priestess",
+      "plural_name": "Priestesses",
+      "name": "Priestess"
+    },
+    {
+      "endpoint": "priestessofthewildsun",
+      "plural_name": "Priestesses Of The Wild Sun",
+      "name": "Priestess Of The Wild Sun"
+    },
+    {
+      "endpoint": "putridmummy",
+      "plural_name": "Putrid Mummies",
+      "name": "Putrid Mummy"
+    },
+    {
+      "endpoint": "quaraconstrictorscout",
+      "plural_name": "Quara Constrictor Scouts",
+      "name": "Quara Constrictor Scout"
+    },
+    {
+      "endpoint": "quaraconstrictor",
+      "plural_name": "Quara Constrictors",
+      "name": "Quara Constrictor"
+    },
+    {
+      "endpoint": "quarahydromancerscout",
+      "plural_name": "Quara Hydromancer Scouts",
+      "name": "Quara Hydromancer Scout"
+    },
+    {
+      "endpoint": "quarahydromancer",
+      "plural_name": "Quara Hydromancers",
+      "name": "Quara Hydromancer"
+    },
+    {
+      "endpoint": "quaramantassinscout",
+      "plural_name": "Quara Mantassin Scouts",
+      "name": "Quara Mantassin Scout"
+    },
+    {
+      "endpoint": "quaramantassin",
+      "plural_name": "Quara Mantassins",
+      "name": "Quara Mantassin"
+    },
+    {
+      "endpoint": "quarapincherscout",
+      "plural_name": "Quara Pincher Scouts",
+      "name": "Quara Pincher Scout"
+    },
+    {
+      "endpoint": "quarapincher",
+      "plural_name": "Quara Pinchers",
+      "name": "Quara Pincher"
+    },
+    {
+      "endpoint": "quarapredatorscout",
+      "plural_name": "Quara Predator Scouts",
+      "name": "Quara Predator Scout"
+    },
+    {
+      "endpoint": "quarapredator",
+      "plural_name": "Quara Predators",
+      "name": "Quara Predator"
+    },
+    {
+      "endpoint": "rabbit",
+      "plural_name": "Rabbits",
+      "name": "Rabbit"
+    },
+    {
+      "endpoint": "ragingbrainsquid",
+      "plural_name": "Rage Squids",
+      "name": "Rage Squid"
+    },
+    {
+      "endpoint": "rat",
+      "plural_name": "Rats",
+      "name": "Rat"
+    },
+    {
+      "endpoint": "realityreaver",
+      "plural_name": "Reality Reavers",
+      "name": "Reality Reaver"
+    },
+    {
+      "endpoint": "redeemedsoul",
+      "plural_name": "Redeemed Souls",
+      "name": "Redeemed Soul"
+    },
+    {
+      "endpoint": "renegadeknight",
+      "plural_name": "Renegade Knights",
+      "name": "Renegade Knight"
+    },
+    {
+      "endpoint": "retchinghorror",
+      "plural_name": "Retching Horrors",
+      "name": "Retching Horror"
+    },
+    {
+      "endpoint": "ripperspectre",
+      "plural_name": "Ripper Spectres",
+      "name": "Ripper Spectre"
+    },
+    {
+      "endpoint": "roaringlion",
+      "plural_name": "Roaring Lions",
+      "name": "Roaring Lion"
+    },
+    {
+      "endpoint": "rorc",
+      "plural_name": "Rorcs",
+      "name": "Rorc"
+    },
+    {
+      "endpoint": "rotelemental",
+      "plural_name": "Rot Elementals",
+      "name": "Rot Elemental"
+    },
+    {
+      "endpoint": "rottengolem",
+      "plural_name": "Rotten Golems",
+      "name": "Rotten Golem"
+    },
+    {
+      "endpoint": "rotworm",
+      "plural_name": "Rotworms",
+      "name": "Rotworm"
+    },
+    {
+      "endpoint": "rustheapgolem",
+      "plural_name": "Rustheap Golems",
+      "name": "Rustheap Golem"
+    },
+    {
+      "endpoint": "salamander",
+      "plural_name": "Salamanders",
+      "name": "Salamander"
+    },
+    {
+      "endpoint": "sandcrawler",
+      "plural_name": "Sandcrawlers",
+      "name": "Sandcrawler"
+    },
+    {
+      "endpoint": "sandstonescorpion",
+      "plural_name": "Sandstone Scorpions",
+      "name": "Sandstone Scorpion"
+    },
+    {
+      "endpoint": "scarab",
+      "plural_name": "Scarabs",
+      "name": "Scarab"
+    },
+    {
+      "endpoint": "scorpion",
+      "plural_name": "Scorpions",
+      "name": "Scorpion"
+    },
+    {
+      "endpoint": "seaserpent",
+      "plural_name": "Sea Serpents",
+      "name": "Sea Serpent"
+    },
+    {
+      "endpoint": "seacrest",
+      "plural_name": "Seacrest Serpents",
+      "name": "Seacrest "
+    },
+    {
+      "endpoint": "seagull",
+      "plural_name": "Seagulls",
+      "name": "Seagull"
+    },
+    {
+      "endpoint": "serpentspawn",
+      "plural_name": "Serpent Spawns",
+      "name": "Serpent Spawn"
+    },
+    {
+      "endpoint": "shadowpupil",
+      "plural_name": "Shadow Pupils",
+      "name": "Shadow Pupil"
+    },
+    {
+      "endpoint": "shapermatriarch",
+      "plural_name": "Shaper Matriarches",
+      "name": "Shaper Matriarch"
+    },
+    {
+      "endpoint": "shark",
+      "plural_name": "Sharks",
+      "name": "Shark"
+    },
+    {
+      "endpoint": "sheep",
+      "plural_name": "Sheep",
+      "name": "Sheep"
+    },
+    {
+      "endpoint": "shockhead",
+      "plural_name": "Shock Heads",
+      "name": "Shock Head"
+    },
+    {
+      "endpoint": "sibang",
+      "plural_name": "Sibangs",
+      "name": "Sibang"
+    },
+    {
+      "endpoint": "sightofsurrender",
+      "plural_name": "Sights Of Surrender",
+      "name": "Sight Of Surrender"
+    },
+    {
+      "endpoint": "silencer",
+      "plural_name": "Silencers",
+      "name": "Silencer"
+    },
+    {
+      "endpoint": "silverrabbit",
+      "plural_name": "Silver Rabbits",
+      "name": "Silver Rabbit"
+    },
+    {
+      "endpoint": "skeletonelite",
+      "plural_name": "Skeleton Elite Warriors",
+      "name": "Skeleton Elite "
+    },
+    {
+      "endpoint": "skeletonwarrior",
+      "plural_name": "Skeleton Warriors",
+      "name": "Skeleton Warrior"
+    },
+    {
+      "endpoint": "skeleton",
+      "plural_name": "Skeletons",
+      "name": "Skeleton"
+    },
+    {
+      "endpoint": "skunk",
+      "plural_name": "Skunks",
+      "name": "Skunk"
+    },
+    {
+      "endpoint": "slime",
+      "plural_name": "Slimes",
+      "name": "Slime"
+    },
+    {
+      "endpoint": "slug",
+      "plural_name": "Slugs",
+      "name": "Slug"
+    },
+    {
+      "endpoint": "smuggler",
+      "plural_name": "Smugglers",
+      "name": "Smuggler"
+    },
+    {
+      "endpoint": "snake",
+      "plural_name": "Snakes",
+      "name": "Snake"
+    },
+    {
+      "endpoint": "sonofverminor",
+      "plural_name": "Sons Of Verminor",
+      "name": "Son Of Verminor"
+    },
+    {
+      "endpoint": "sorcerersapparition",
+      "plural_name": "Sorcerer's Apparitions",
+      "name": "Sorcerer's Apparition"
+    },
+    {
+      "endpoint": "soulbrokenharbinger",
+      "plural_name": "Soul-broken Harbingers",
+      "name": "Soul-broken Harbinger"
+    },
+    {
+      "endpoint": "souleater",
+      "plural_name": "Souleaters",
+      "name": "Souleater"
+    },
+    {
+      "endpoint": "sparkion",
+      "plural_name": "Sparkions",
+      "name": "Sparkion"
+    },
+    {
+      "endpoint": "spectre",
+      "plural_name": "Spectres",
+      "name": "Spectre"
+    },
+    {
+      "endpoint": "sphinx",
+      "plural_name": "Sphinxes",
+      "name": "Sphinx"
+    },
+    {
+      "endpoint": "spider",
+      "plural_name": "Spiders",
+      "name": "Spider"
+    },
+    {
+      "endpoint": "spidris",
+      "plural_name": "Spidris",
+      "name": "Spidris"
+    },
+    {
+      "endpoint": "spikycarnivor",
+      "plural_name": "Spiky Carnivors",
+      "name": "Spiky Carnivor"
+    },
+    {
+      "endpoint": "spitnettle",
+      "plural_name": "Spit Nettles",
+      "name": "Spit Nettle"
+    },
+    {
+      "endpoint": "spitter",
+      "plural_name": "Spitters",
+      "name": "Spitter"
+    },
+    {
+      "endpoint": "squidwarden",
+      "plural_name": "Squid Wardens",
+      "name": "Squid Warden"
+    },
+    {
+      "endpoint": "squirrel",
+      "plural_name": "Squirrels",
+      "name": "Squirrel"
+    },
+    {
+      "endpoint": "stabilizingdreadintruder",
+      "plural_name": "Stabilizing Dread Intruders",
+      "name": "Stabilizing Dread Intruder"
+    },
+    {
+      "endpoint": "stabilizingrealityreaver",
+      "plural_name": "Stabilizing Reality Reavers",
+      "name": "Stabilizing Reality Reaver"
+    },
+    {
+      "endpoint": "stalker",
+      "plural_name": "Stalkers",
+      "name": "Stalker"
+    },
+    {
+      "endpoint": "stampor",
+      "plural_name": "Stampors",
+      "name": "Stampor"
+    },
+    {
+      "endpoint": "stonedevourer",
+      "plural_name": "Stone Devourers",
+      "name": "Stone Devourer"
+    },
+    {
+      "endpoint": "stonegolem",
+      "plural_name": "Stone Golems",
+      "name": "Stone Golem"
+    },
+    {
+      "endpoint": "stonerhino",
+      "plural_name": "Stone Rhinos",
+      "name": "Stone Rhino"
+    },
+    {
+      "endpoint": "streakeddevourer",
+      "plural_name": "Streaked Devourers",
+      "name": "Streaked Devourer"
+    },
+    {
+      "endpoint": "swamptroll",
+      "plural_name": "Swamp Trolls",
+      "name": "Swamp Troll"
+    },
+    {
+      "endpoint": "swampling",
+      "plural_name": "Swamplings",
+      "name": "Swampling"
+    },
+    {
+      "endpoint": "swanmaiden",
+      "plural_name": "Swan Maidens",
+      "name": "Swan Maiden"
+    },
+    {
+      "endpoint": "swarmer",
+      "plural_name": "Swarmers",
+      "name": "Swarmer"
+    },
+    {
+      "endpoint": "taintedsoul",
+      "plural_name": "Tainted Souls",
+      "name": "Tainted Soul"
+    },
+    {
+      "endpoint": "tarantula",
+      "plural_name": "Tarantulas",
+      "name": "Tarantula"
+    },
+    {
+      "endpoint": "tarnishedspirit",
+      "plural_name": "Tarnished Spirits",
+      "name": "Tarnished Spirit"
+    },
+    {
+      "endpoint": "terramite",
+      "plural_name": "Terramites",
+      "name": "Terramite"
+    },
+    {
+      "endpoint": "terrorbird",
+      "plural_name": "Terror Birds",
+      "name": "Terror Bird"
+    },
+    {
+      "endpoint": "terrorsleep",
+      "plural_name": "Terrorsleeps",
+      "name": "Terrorsleep"
+    },
+    {
+      "endpoint": "thanatursus",
+      "plural_name": "Thanatursuses",
+      "name": "Thanatursus"
+    },
+    {
+      "endpoint": "thornbacktortoise",
+      "plural_name": "Thornback Tortoises",
+      "name": "Thornback Tortoise"
+    },
+    {
+      "endpoint": "tiger",
+      "plural_name": "Tigers",
+      "name": "Tiger"
+    },
+    {
+      "endpoint": "toad",
+      "plural_name": "Toads",
+      "name": "Toad"
+    },
+    {
+      "endpoint": "tortoise",
+      "plural_name": "Tortoises",
+      "name": "Tortoise"
+    },
+    {
+      "endpoint": "tremendoustyrant",
+      "plural_name": "Tremendous Tyrants",
+      "name": "Tremendous Tyrant"
+    },
+    {
+      "endpoint": "trollchampion",
+      "plural_name": "Troll Champions",
+      "name": "Troll Champion"
+    },
+    {
+      "endpoint": "troll",
+      "plural_name": "Trolls",
+      "name": "Troll"
+    },
+    {
+      "endpoint": "truedawnfire",
+      "plural_name": "True Dawnfire Asuras",
+      "name": "True Dawnfire "
+    },
+    {
+      "endpoint": "truefrostflower",
+      "plural_name": "True Frost Flower Asuras",
+      "name": "True Frost Flower "
+    },
+    {
+      "endpoint": "truemidnight",
+      "plural_name": "True Midnight Asuras",
+      "name": "True Midnight "
+    },
+    {
+      "endpoint": "tunneltyrant",
+      "plural_name": "Tunnel Tyrants",
+      "name": "Tunnel Tyrant"
+    },
+    {
+      "endpoint": "turbulentelemental",
+      "plural_name": "Turbulent Elementals",
+      "name": "Turbulent Elemental"
+    },
+    {
+      "endpoint": "twistedpooka",
+      "plural_name": "Twisted Pookas",
+      "name": "Twisted Pooka"
+    },
+    {
+      "endpoint": "twistedshaper",
+      "plural_name": "Twisted Shapers",
+      "name": "Twisted Shaper"
+    },
+    {
+      "endpoint": "undeadcavebear",
+      "plural_name": "Undead Cavebears",
+      "name": "Undead Cavebear"
+    },
+    {
+      "endpoint": "undeaddragon",
+      "plural_name": "Undead Dragons",
+      "name": "Undead Dragon"
+    },
+    {
+      "endpoint": "undeadelitegladiator",
+      "plural_name": "Undead Elite Gladiators",
+      "name": "Undead Elite Gladiator"
+    },
+    {
+      "endpoint": "undeadgladiator",
+      "plural_name": "Undead Gladiators",
+      "name": "Undead Gladiator"
+    },
+    {
+      "endpoint": "usurperarcher",
+      "plural_name": "Usurper Archers",
+      "name": "Usurper Archer"
+    },
+    {
+      "endpoint": "usurpercommander",
+      "plural_name": "Usurper Commanders",
+      "name": "Usurper Commander"
+    },
+    {
+      "endpoint": "usurperknight",
+      "plural_name": "Usurper Knights",
+      "name": "Usurper Knight"
+    },
+    {
+      "endpoint": "usurperwarlock",
+      "plural_name": "Usurper Warlocks",
+      "name": "Usurper Warlock"
+    },
+    {
+      "endpoint": "valkyrie",
+      "plural_name": "Valkyries",
+      "name": "Valkyrie"
+    },
+    {
+      "endpoint": "vampirebride",
+      "plural_name": "Vampire Brides",
+      "name": "Vampire Bride"
+    },
+    {
+      "endpoint": "vampireviscount",
+      "plural_name": "Vampire Viscounts",
+      "name": "Vampire Viscount"
+    },
+    {
+      "endpoint": "vampire",
+      "plural_name": "Vampires",
+      "name": "Vampire"
+    },
+    {
+      "endpoint": "varnisheddiremaw",
+      "plural_name": "Varnished Diremaws",
+      "name": "Varnished Diremaw"
+    },
+    {
+      "endpoint": "girtablilu",
+      "plural_name": "Venerable Girtablilus",
+      "name": "Venerable Girtablilu"
+    },
+    {
+      "endpoint": "vexclaw",
+      "plural_name": "Vexclaws",
+      "name": "Vexclaw"
+    },
+    {
+      "endpoint": "vibrantphantom",
+      "plural_name": "Vibrant Phantoms",
+      "name": "Vibrant Phantom"
+    },
+    {
+      "endpoint": "viscountmanbat",
+      "plural_name": "Vicious Manbats",
+      "name": "Vicious Manbat"
+    },
+    {
+      "endpoint": "vicioussquire",
+      "plural_name": "Vicious Squires",
+      "name": "Vicious Squire"
+    },
+    {
+      "endpoint": "vilegrandmaster",
+      "plural_name": "Vile Grandmasters",
+      "name": "Vile Grandmaster"
+    },
+    {
+      "endpoint": "vulcongra",
+      "plural_name": "Vulcongras",
+      "name": "Vulcongra"
+    },
+    {
+      "endpoint": "wailingwidow",
+      "plural_name": "Wailing Widows",
+      "name": "Wailing Widow"
+    },
+    {
+      "endpoint": "walker",
+      "plural_name": "Walkers",
+      "name": "Walker"
+    },
+    {
+      "endpoint": "wargolem",
+      "plural_name": "War Golems",
+      "name": "War Golem"
+    },
+    {
+      "endpoint": "warwolf",
+      "plural_name": "War Wolves",
+      "name": "War Wolf"
+    },
+    {
+      "endpoint": "warlock",
+      "plural_name": "Warlocks",
+      "name": "Warlock"
+    },
+    {
+      "endpoint": "waspoid",
+      "plural_name": "Waspoids",
+      "name": "Waspoid"
+    },
+    {
+      "endpoint": "wasp",
+      "plural_name": "Wasps",
+      "name": "Wasp"
+    },
+    {
+      "endpoint": "waterbuffalo",
+      "plural_name": "Water Buffalos",
+      "name": "Water Buffalo"
+    },
+    {
+      "endpoint": "waterelemental",
+      "plural_name": "Water Elementals",
+      "name": "Water Elemental"
+    },
+    {
+      "endpoint": "weakenedfrazzlemaw",
+      "plural_name": "Weakened Frazzlemaws",
+      "name": "Weakened Frazzlemaw"
+    },
+    {
+      "endpoint": "weeper",
+      "plural_name": "Weepers",
+      "name": "Weeper"
+    },
+    {
+      "endpoint": "werebadger",
+      "plural_name": "Werebadgers",
+      "name": "Werebadger"
+    },
+    {
+      "endpoint": "werebear",
+      "plural_name": "Werebears",
+      "name": "Werebear"
+    },
+    {
+      "endpoint": "wereboar",
+      "plural_name": "Wereboars",
+      "name": "Wereboar"
+    },
+    {
+      "endpoint": "werefox",
+      "plural_name": "Werefoxes",
+      "name": "Werefox"
+    },
+    {
+      "endpoint": "werehyaenashaman",
+      "plural_name": "Werehyaena Shamans",
+      "name": "Werehyaena Shaman"
+    },
+    {
+      "endpoint": "werehyaena",
+      "plural_name": "Werehyaenas",
+      "name": "Werehyaena"
+    },
+    {
+      "endpoint": "werelioness",
+      "plural_name": "Werelionesses",
+      "name": "Werelioness"
+    },
+    {
+      "endpoint": "werelion",
+      "plural_name": "Werelions",
+      "name": "Werelion"
+    },
+    {
+      "endpoint": "werewolf",
+      "plural_name": "Werewolves",
+      "name": "Werewolf"
+    },
+    {
+      "endpoint": "whitedeer",
+      "plural_name": "White Deer",
+      "name": "White Deer"
+    },
+    {
+      "endpoint": "whitelion",
+      "plural_name": "White Lions",
+      "name": "White Lion"
+    },
+    {
+      "endpoint": "whiteshade",
+      "plural_name": "White Shades",
+      "name": "White Shade"
+    },
+    {
+      "endpoint": "wiggler",
+      "plural_name": "Wigglers",
+      "name": "Wiggler"
+    },
+    {
+      "endpoint": "wildwarrior",
+      "plural_name": "Wild Warriors",
+      "name": "Wild Warrior"
+    },
+    {
+      "endpoint": "wiltingleafgolem",
+      "plural_name": "Wilting Leaf Golems",
+      "name": "Wilting Leaf Golem"
+    },
+    {
+      "endpoint": "winterwolf",
+      "plural_name": "Winter Wolves",
+      "name": "Winter Wolf"
+    },
+    {
+      "endpoint": "wisp",
+      "plural_name": "Wisps",
+      "name": "Wisp"
+    },
+    {
+      "endpoint": "witch",
+      "plural_name": "Witches",
+      "name": "Witch"
+    },
+    {
+      "endpoint": "wolf",
+      "plural_name": "Wolves",
+      "name": "Wolf"
+    },
+    {
+      "endpoint": "workergolem",
+      "plural_name": "Worker Golems",
+      "name": "Worker Golem"
+    },
+    {
+      "endpoint": "wormpriest",
+      "plural_name": "Worm Priestesses",
+      "name": "Worm Priest"
+    },
+    {
+      "endpoint": "wyrm",
+      "plural_name": "Wyrms",
+      "name": "Wyrm"
+    },
+    {
+      "endpoint": "wyvern",
+      "plural_name": "Wyverns",
+      "name": "Wyvern"
+    },
+    {
+      "endpoint": "yielothax",
+      "plural_name": "Yielothax",
+      "name": "Yielothax"
+    },
+    {
+      "endpoint": "younggoanna",
+      "plural_name": "Young Goannas",
+      "name": "Young Goanna"
+    },
+    {
+      "endpoint": "youngseaserpent",
+      "plural_name": "Young Sea Serpents",
+      "name": "Young Sea Serpent"
+    },
+    {
+      "endpoint": "zombie",
+      "plural_name": "Zombies",
+      "name": "Zombie"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Annihilation",
+      "formula": "exori gran ico",
+      "endpoint": "annihilation"
+    },
+    {
+      "name": "Apprentice's Strike",
+      "formula": "exori min flam",
+      "endpoint": "apprenticestrike"
+    },
+    {
+      "name": "Arrow Call",
+      "formula": "exevo infir con",
+      "endpoint": "arrowcall"
+    },
+    {
+      "name": "Avalanche Rune",
+      "formula": "adori mas frigo",
+      "endpoint": "avalancherune"
+    },
+    {
+      "name": "Berserk",
+      "formula": "exori",
+      "endpoint": "berserk"
+    },
+    {
+      "name": "Blood Rage",
+      "formula": "utito tempo",
+      "endpoint": "bloodrage"
+    },
+    {
+      "name": "Bruise Bane",
+      "formula": "exura infir ico",
+      "endpoint": "bruisebane"
+    },
+    {
+      "name": "Brutal Strike",
+      "formula": "exori ico",
+      "endpoint": "brutalstrike"
+    },
+    {
+      "name": "Buzz",
+      "formula": "exori infir vis",
+      "endpoint": "buzz"
+    },
+    {
+      "name": "Cancel Invisibility",
+      "formula": "exana ina",
+      "endpoint": "cancelinvisibility"
+    },
+    {
+      "name": "Cancel Magic Shield",
+      "formula": "exana vita",
+      "endpoint": "cancelmagicshield"
+    },
+    {
+      "name": "Challenge",
+      "formula": "exeta res",
+      "endpoint": "challenge"
+    },
+    {
+      "name": "Chameleon Rune",
+      "formula": "adevo ina",
+      "endpoint": "chameleonrune"
+    },
+    {
+      "name": "Charge",
+      "formula": "utani tempo hur",
+      "endpoint": "charge"
+    },
+    {
+      "name": "Chill Out",
+      "formula": "exevo infir frigo hur",
+      "endpoint": "chillout"
+    },
+    {
+      "name": "Chivalrous Challenge",
+      "formula": "exeta amp res",
+      "endpoint": "chivalrouschallenge"
+    },
+    {
+      "name": "Conjure Arrow",
+      "formula": "exevo con",
+      "endpoint": "conjurearrow"
+    },
+    {
+      "name": "Conjure Explosive Arrow",
+      "formula": "exevo con flam",
+      "endpoint": "conjureexplosivearrow"
+    },
+    {
+      "name": "Conjure Wand of Darkness",
+      "formula": "exevo gran mort",
+      "endpoint": "conjurewandofdarkness"
+    },
+    {
+      "name": "Convince Creature Rune",
+      "formula": "adeta sio",
+      "endpoint": "convincecreaturerune"
+    },
+    {
+      "name": "Creature Illusion",
+      "formula": "utevo res ina \"creature\"",
+      "endpoint": "creatureillusion"
+    },
+    {
+      "name": "Cure Bleeding",
+      "formula": "exana kor",
+      "endpoint": "curebleeding"
+    },
+    {
+      "name": "Cure Burning",
+      "formula": "exana flam",
+      "endpoint": "cureburning"
+    },
+    {
+      "name": "Cure Curse",
+      "formula": "exana mort",
+      "endpoint": "curecurse"
+    },
+    {
+      "name": "Cure Electrification",
+      "formula": "exana vis",
+      "endpoint": "cureelectrification"
+    },
+    {
+      "name": "Cure Poison",
+      "formula": "exana pox",
+      "endpoint": "curepoison"
+    },
+    {
+      "name": "Cure Poison Rune",
+      "formula": "adana pox",
+      "endpoint": "curepoisonrune"
+    },
+    {
+      "name": "Curse",
+      "formula": "utori mort",
+      "endpoint": "curse"
+    },
+    {
+      "name": "Death Strike",
+      "formula": "exori mort",
+      "endpoint": "deathstrike"
+    },
+    {
+      "name": "Destroy Field Rune",
+      "formula": "adito grav",
+      "endpoint": "destroyfieldrune"
+    },
+    {
+      "name": "Disintegrate Rune",
+      "formula": "adito tera",
+      "endpoint": "disintegraterune"
+    },
+    {
+      "name": "Divine Caldera",
+      "formula": "exevo mas san",
+      "endpoint": "divinecaldera"
+    },
+    {
+      "name": "Divine Dazzle",
+      "formula": "exana amp res",
+      "endpoint": "divinedazzle"
+    },
+    {
+      "name": "Divine Healing",
+      "formula": "exura san",
+      "endpoint": "divinehealing"
+    },
+    {
+      "name": "Divine Missile",
+      "formula": "exori san",
+      "endpoint": "divinemissile"
+    },
+    {
+      "name": "Electrify",
+      "formula": "utori vis",
+      "endpoint": "electrify"
+    },
+    {
+      "name": "Enchant Party",
+      "formula": "utori mas sio",
+      "endpoint": "enchantparty"
+    },
+    {
+      "name": "Enchant Spear",
+      "formula": "exeta con",
+      "endpoint": "enchantspear"
+    },
+    {
+      "name": "Energy Beam",
+      "formula": "exevo vis lux",
+      "endpoint": "energybeam"
+    },
+    {
+      "name": "Energy Bomb Rune",
+      "formula": "adevo mas vis",
+      "endpoint": "energybombrune"
+    },
+    {
+      "name": "Energy Field Rune",
+      "formula": "adevo grav vis",
+      "endpoint": "energyfieldrune"
+    },
+    {
+      "name": "Energy Strike",
+      "formula": "exori vis",
+      "endpoint": "energystrike"
+    },
+    {
+      "name": "Energy Wall Rune",
+      "formula": "adevo mas grav vis",
+      "endpoint": "energywallrune"
+    },
+    {
+      "name": "Energy Wave",
+      "formula": "exevo vis hur",
+      "endpoint": "energywave"
+    },
+    {
+      "name": "Envenom",
+      "formula": "utori pox",
+      "endpoint": "envenom"
+    },
+    {
+      "name": "Eternal Winter",
+      "formula": "exevo gran mas frigo",
+      "endpoint": "eternalwinter"
+    },
+    {
+      "name": "Ethereal Spear",
+      "formula": "exori con",
+      "endpoint": "etherealspear"
+    },
+    {
+      "name": "Explosion Rune",
+      "formula": "adevo mas hur",
+      "endpoint": "explosionrune"
+    },
+    {
+      "name": "Expose Weakness",
+      "formula": "exori moe",
+      "endpoint": "exposeweakness"
+    },
+    {
+      "name": "Fair Wound Cleansing",
+      "formula": "exura med ico",
+      "endpoint": "fairwoundcleansing"
+    },
+    {
+      "name": "Fierce Berserk",
+      "formula": "exori gran",
+      "endpoint": "fierceberserk"
+    },
+    {
+      "name": "Find Fiend",
+      "formula": "exiva moe res",
+      "endpoint": "findfiend"
+    },
+    {
+      "name": "Find Person",
+      "formula": "exiva \"name\"",
+      "endpoint": "findperson"
+    },
+    {
+      "name": "Fire Bomb Rune",
+      "formula": "adevo mas flam",
+      "endpoint": "firebombrune"
+    },
+    {
+      "name": "Fire Field Rune",
+      "formula": "adevo grav flam",
+      "endpoint": "firefieldrune"
+    },
+    {
+      "name": "Fire Wall Rune",
+      "formula": "adevo mas grav flam",
+      "endpoint": "firewallrune"
+    },
+    {
+      "name": "Fire Wave",
+      "formula": "exevo flam hur",
+      "endpoint": "firewave"
+    },
+    {
+      "name": "Fireball Rune",
+      "formula": "adori flam",
+      "endpoint": "fireballrune"
+    },
+    {
+      "name": "Flame Strike",
+      "formula": "exori flam",
+      "endpoint": "flamestrike"
+    },
+    {
+      "name": "Food",
+      "formula": "exevo pan",
+      "endpoint": "food"
+    },
+    {
+      "name": "Front Sweep",
+      "formula": "exori min",
+      "endpoint": "frontsweep"
+    },
+    {
+      "name": "Great Energy Beam",
+      "formula": "exevo gran vis lux",
+      "endpoint": "greatenergybeam"
+    },
+    {
+      "name": "Great Fire Wave",
+      "formula": "exevo gran flam hur",
+      "endpoint": "greatfirewave"
+    },
+    {
+      "name": "Great Fireball Rune",
+      "formula": "adori mas flam",
+      "endpoint": "greatfireballrune"
+    },
+    {
+      "name": "Great Light",
+      "formula": "utevo gran lux",
+      "endpoint": "greatlight"
+    },
+    {
+      "name": "Groundshaker",
+      "formula": "exori mas",
+      "endpoint": "groundshaker"
+    },
+    {
+      "name": "Haste",
+      "formula": "utani hur",
+      "endpoint": "haste"
+    },
+    {
+      "name": "Heal Friend",
+      "formula": "exura sio \"name\"",
+      "endpoint": "healfriend"
+    },
+    {
+      "name": "Heal Party",
+      "formula": "utura mas sio",
+      "endpoint": "healparty"
+    },
+    {
+      "name": "Heavy Magic Missile Rune",
+      "formula": "adori vis",
+      "endpoint": "heavymagicmissilerune"
+    },
+    {
+      "name": "Hell's Core",
+      "formula": "exevo gran mas flam",
+      "endpoint": "hellscore"
+    },
+    {
+      "name": "Holy Flash",
+      "formula": "utori san",
+      "endpoint": "holyflash"
+    },
+    {
+      "name": "Holy Missile Rune",
+      "formula": "adori san",
+      "endpoint": "holymissilerune"
+    },
+    {
+      "name": "Ice Strike",
+      "formula": "exori frigo",
+      "endpoint": "icestrike"
+    },
+    {
+      "name": "Ice Wave",
+      "formula": "exevo frigo hur",
+      "endpoint": "icewave"
+    },
+    {
+      "name": "Icicle Rune",
+      "formula": "adori frigo",
+      "endpoint": "iciclerune"
+    },
+    {
+      "name": "Ignite",
+      "formula": "utori flam",
+      "endpoint": "ignite"
+    },
+    {
+      "name": "Inflict Wound",
+      "formula": "utori kor",
+      "endpoint": "inflictwound"
+    },
+    {
+      "name": "Intense Healing",
+      "formula": "exura gran",
+      "endpoint": "intensehealing"
+    },
+    {
+      "name": "Intense Healing Rune",
+      "formula": "adura gran",
+      "endpoint": "intensehealingrune"
+    },
+    {
+      "name": "Intense Recovery",
+      "formula": "utura gran",
+      "endpoint": "intenserecovery"
+    },
+    {
+      "name": "Intense Wound Cleansing",
+      "formula": "exura gran ico",
+      "endpoint": "intensewoundcleansing"
+    },
+    {
+      "name": "Invisible",
+      "formula": "utana vid",
+      "endpoint": "invisible"
+    },
+    {
+      "name": "Levitate",
+      "formula": "exani hur \"up|down\"",
+      "endpoint": "levitate"
+    },
+    {
+      "name": "Light",
+      "formula": "utevo lux",
+      "endpoint": "light"
+    },
+    {
+      "name": "Light Healing",
+      "formula": "exura",
+      "endpoint": "lighthealing"
+    },
+    {
+      "name": "Light Magic Missile Rune",
+      "formula": "adori min vis",
+      "endpoint": "lightmagicmissilerune"
+    },
+    {
+      "name": "Lightning",
+      "formula": "exori amp vis",
+      "endpoint": "lightning"
+    },
+    {
+      "name": "Magic Patch",
+      "formula": "exura infir",
+      "endpoint": "magicpatch"
+    },
+    {
+      "name": "Magic Rope",
+      "formula": "exani tera",
+      "endpoint": "magicrope"
+    },
+    {
+      "name": "Magic Shield",
+      "formula": "utamo vita",
+      "endpoint": "magicshield"
+    },
+    {
+      "name": "Magic Wall Rune",
+      "formula": "adevo grav tera",
+      "endpoint": "magicwallrune"
+    },
+    {
+      "name": "Mass Healing",
+      "formula": "exura gran mas res",
+      "endpoint": "masshealing"
+    },
+    {
+      "name": "Mud Attack",
+      "formula": "exori infir tera",
+      "endpoint": "mudattack"
+    },
+    {
+      "name": "Nature's Embrace",
+      "formula": "exura gran sio para",
+      "endpoint": "naturesembrace"
+    },
+    {
+      "name": "Paralyse Rune",
+      "formula": "adana ani",
+      "endpoint": "paralyserune"
+    },
+    {
+      "name": "Physical Strike",
+      "formula": "exori moe ico",
+      "endpoint": "physicalstrike"
+    },
+    {
+      "name": "Poison Bomb Rune",
+      "formula": "adevo mas pox",
+      "endpoint": "poisonbombrune"
+    },
+    {
+      "name": "Poison Field Rune",
+      "formula": "adevo grav pox",
+      "endpoint": "poisonfieldrune"
+    },
+    {
+      "name": "Poison Wall Rune",
+      "formula": "adevo mas grav pox",
+      "endpoint": "poisonwallrune"
+    },
+    {
+      "name": "Protect Party",
+      "formula": "utamo mas sio",
+      "endpoint": "protectparty"
+    },
+    {
+      "name": "Protector",
+      "formula": "utamo tempo",
+      "endpoint": "protector"
+    },
+    {
+      "name": "Rage of the Skies",
+      "formula": "exevo gran mas vis",
+      "endpoint": "rageoftheskies"
+    },
+    {
+      "name": "Recovery",
+      "formula": "utura",
+      "endpoint": "recovery"
+    },
+    {
+      "name": "Restoration",
+      "formula": "exura max vita",
+      "endpoint": "restoration"
+    },
+    {
+      "name": "Salvation",
+      "formula": "exura gran san",
+      "endpoint": "salvation"
+    },
+    {
+      "name": "Sap Strength",
+      "formula": "exori kor",
+      "endpoint": "sapstrength"
+    },
+    {
+      "name": "Scorch",
+      "formula": "exevo infir flam hur",
+      "endpoint": "scorch"
+    },
+    {
+      "name": "Sharpshooter",
+      "formula": "utito tempo san",
+      "endpoint": "sharpshooter"
+    },
+    {
+      "name": "Soulfire Rune",
+      "formula": "adevo res flam",
+      "endpoint": "soulfirerune"
+    },
+    {
+      "name": "Stalagmite Rune",
+      "formula": "adori tera",
+      "endpoint": "stalagmiterune"
+    },
+    {
+      "name": "Stone Shower Rune",
+      "formula": "adori mas tera",
+      "endpoint": "stoneshowerrune"
+    },
+    {
+      "name": "Strong Energy Strike",
+      "formula": "exori gran vis",
+      "endpoint": "strongenergystrike"
+    },
+    {
+      "name": "Strong Ethereal Spear",
+      "formula": "exori gran con",
+      "endpoint": "strongetherealspear"
+    },
+    {
+      "name": "Strong Flame Strike",
+      "formula": "exori gran flam",
+      "endpoint": "strongflamestrike"
+    },
+    {
+      "name": "Strong Haste",
+      "formula": "utani gran hur",
+      "endpoint": "stronghaste"
+    },
+    {
+      "name": "Strong Ice Strike",
+      "formula": "exori gran frigo",
+      "endpoint": "strongicestrike"
+    },
+    {
+      "name": "Strong Ice Wave",
+      "formula": "exevo gran frigo hur",
+      "endpoint": "strongicewave"
+    },
+    {
+      "name": "Strong Terra Strike",
+      "formula": "exori gran tera",
+      "endpoint": "strongterrastrike"
+    },
+    {
+      "name": "Sudden Death Rune",
+      "formula": "adori gran mort",
+      "endpoint": "suddendeathrune"
+    },
+    {
+      "name": "Summon Creature",
+      "formula": "utevo res \"creature\"",
+      "endpoint": "summoncreature"
+    },
+    {
+      "name": "Summon Druid Familiar",
+      "formula": "utevo gran res dru",
+      "endpoint": "summondruidfamiliar"
+    },
+    {
+      "name": "Summon Knight Familiar",
+      "formula": "utevo gran res eq",
+      "endpoint": "summonknightfamiliar"
+    },
+    {
+      "name": "Summon Paladin Familiar",
+      "formula": "utevo gran res sac",
+      "endpoint": "summonpaladinfamiliar"
+    },
+    {
+      "name": "Summon Sorcerer Familiar",
+      "formula": "utevo gran res ven",
+      "endpoint": "summonsorcererfamiliar"
+    },
+    {
+      "name": "Swift Foot",
+      "formula": "utamo tempo san",
+      "endpoint": "swiftfoot"
+    },
+    {
+      "name": "Terra Strike",
+      "formula": "exori tera",
+      "endpoint": "terrastrike"
+    },
+    {
+      "name": "Terra Wave",
+      "formula": "exevo tera hur",
+      "endpoint": "terrawave"
+    },
+    {
+      "name": "Thunderstorm Rune",
+      "formula": "adori mas vis",
+      "endpoint": "thunderstormrune"
+    },
+    {
+      "name": "Train Party",
+      "formula": "utito mas sio",
+      "endpoint": "trainparty"
+    },
+    {
+      "name": "Ultimate Energy Strike",
+      "formula": "exori max vis",
+      "endpoint": "ultimateenergystrike"
+    },
+    {
+      "name": "Ultimate Flame Strike",
+      "formula": "exori max flam",
+      "endpoint": "ultimateflamestrike"
+    },
+    {
+      "name": "Ultimate Healing",
+      "formula": "exura vita",
+      "endpoint": "ultimatehealing"
+    },
+    {
+      "name": "Ultimate Healing Rune",
+      "formula": "adura vita",
+      "endpoint": "ultimatehealingrune"
+    },
+    {
+      "name": "Ultimate Ice Strike",
+      "formula": "exori max frigo",
+      "endpoint": "ultimateicestrike"
+    },
+    {
+      "name": "Ultimate Light",
+      "formula": "utevo vis lux",
+      "endpoint": "ultimatelight"
+    },
+    {
+      "name": "Ultimate Terra Strike",
+      "formula": "exori max tera",
+      "endpoint": "ultimateterrastrike"
+    },
+    {
+      "name": "Whirlwind Throw",
+      "formula": "exori hur",
+      "endpoint": "whirlwindthrow"
+    },
+    {
+      "name": "Wild Growth Rune",
+      "formula": "adevo grav vita",
+      "endpoint": "wildgrowthrune"
+    },
+    {
+      "name": "Wound Cleansing",
+      "formula": "exura ico",
+      "endpoint": "woundcleansing"
+    },
+    {
+      "name": "Wrath of Nature",
+      "formula": "exevo gran mas tera",
+      "endpoint": "wrathofnature"
+    }
   ]
 }
