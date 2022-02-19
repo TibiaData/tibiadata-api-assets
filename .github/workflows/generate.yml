@@ -26,7 +26,7 @@ jobs:
 
       - name: Run go code
         run: |
-          go run ./src --sleep
+          go run ./src -sleep .
         env:
           TIBIADATA_PROXY: ${{ secrets.TIBIADATA_PROXY }}
 
