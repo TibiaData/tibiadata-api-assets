@@ -1,4 +1,4 @@
-name: generate
+name: assets-generator
 
 on:
   schedule:
@@ -20,6 +20,8 @@ jobs:
       - name: Run go code
         run: |
           go run ./src
+        env:
+          TIBIADATA_PROXY: ${{ secrets.TIBIADATA_PROXY }}
 
       - name: Generate checksum for data.json
         run: |

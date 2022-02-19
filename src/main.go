@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"os"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -71,9 +72,16 @@ func main() {
 		err error
 
 		AssetsHouses AssetsHouses
+
+		TibiaComhost = "www.tibia.com"
 	)
 
-	res, err = client.R().Get("https://www.tibia.com/community/?subtopic=houses")
+	// overriding host with env
+	if isEnvExist("TIBIADATA_PROXY") {
+		TibiaComhost = "https://" + getEnv("TIBIADATA_PROXY", "www.tibia.com")
+	}
+
+	res, err = client.R().Get(TibiaComhost + "/community/?subtopic=houses")
 
 	switch res.StatusCode() {
 	case http.StatusOK:
@@ -155,4 +163,22 @@ func main() {
 	_ = ioutil.WriteFile("docs/data.json", file, 0644)
 
 	log.Println("[info] TibiaData assets generator finished.")
+}
+
+// isEnvExist func - check if environment var is set
+func isEnvExist(key string) bool {
+	if _, ok := os.LookupEnv(key); ok {
+		return true
+	}
+
+	return false
+}
+
+// getEnv func - read an environment or return a default value
+func getEnv(key string, defaultVal string) string {
+	if value, exists := os.LookupEnv(key); exists {
+		return value
+	}
+
+	return defaultVal
 }
