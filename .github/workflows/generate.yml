@@ -2,7 +2,14 @@ name: assets-generator
 
 on:
   schedule:
-    - cron: "37 13 * * *" # this is UTC
+    - cron: "37 1,13 * * *" # this is UTC
+  push:
+    branches:
+      - "main"
+    paths:
+      - "src/**"
+      - "go.mod"
+      - "go.sum"
   workflow_dispatch:
 
 jobs:
