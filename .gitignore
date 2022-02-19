@@ -19,3 +19,4 @@ docs/data.json
 docs/data.min.json
 docs/sha256sum.txt
 docs/sha512sum.txt
+output.json
