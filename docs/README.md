@@ -6,6 +6,7 @@ This repo ([tibiadata-api-assets](https://github.com/TibiaData/tibiadata-api-ass
 
 ### Links:
 - [assets.tibiadata.com/data.json](https://assets.tibiadata.com/data.json)
+- [assets.tibiadata.com/data.min.json](https://assets.tibiadata.com/data.min.json)
 
 #### Checksums:
 - [sha256sum](https://assets.tibiadata.com/sha256sum.txt)

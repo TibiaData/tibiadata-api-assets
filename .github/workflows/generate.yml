@@ -26,12 +26,16 @@ jobs:
       - name: JQ formatting JSON
         run: |
           # running jq -c . to compact output
+          jq -c . output.json > docs/data.min.json
+
+          # running jq . to easier readable file
           jq . output.json > docs/data.json
 
       - name: Generate checksum for data.json
         run: |
-          sha256sum data.json > sha256sum.txt
-          sha512sum data.json > sha512sum.txt
+          # generating checksum for all JSON files in folder
+          find *.json -type f -exec sha256sum {} \; > sha256sum.txt
+          find *.json -type f -exec sha512sum {} \; > sha512sum.txt
         working-directory: docs
 
       - uses: EndBug/add-and-commit@v8
