@@ -4,4 +4,4 @@ This repo ([tibiadata-api-assets](https://github.com/TibiaData/tibiadata-api-ass
 
 ---
 
-Link to [data.json](https://assets.tibiadata.com/data.json) ([checksum](https://assets.tibiadata.com/checksum))
+Link to [data.json](https://assets.tibiadata.com/data.json) (checksum: [sha256sum](https://assets.tibiadata.com/sha256sum.txt) [sha512sum](https://assets.tibiadata.com/sha512sum.txt))
