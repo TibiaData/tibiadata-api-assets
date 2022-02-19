@@ -158,9 +158,9 @@ func main() {
 
 	}
 
-	log.Println("[info] Generating output file: docs/data.json")
-	file, _ := json.MarshalIndent(AssetsHouses, "", " ")
-	_ = ioutil.WriteFile("docs/data.json", file, 0644)
+	log.Println("[info] Generating output file: output.json")
+	file, _ := json.Marshal(AssetsHouses)
+	_ = ioutil.WriteFile("output.json", file, 0644)
 
 	log.Println("[info] TibiaData assets generator finished.")
 }
