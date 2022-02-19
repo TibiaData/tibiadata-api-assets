@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	TibiaDataAPIhost = "https://dev.tibiadata.com"
+	TibiaDataAPIhost = "dev.tibiadata.com"
 )
 
 type AssetsHouse struct {
@@ -115,7 +115,7 @@ func main() {
 		// sleep for 500 ms for ratelimit on dev.tibiadata.com
 		time.Sleep(500 * time.Millisecond)
 
-		ApiUrl := TibiaDataAPIhost + "/v3/houses/" + AssetsHouses.Worlds[0] + "/" + url.QueryEscape(town)
+		ApiUrl := "https://" + TibiaDataAPIhost + "/v3/houses/" + AssetsHouses.Worlds[0] + "/" + url.QueryEscape(town)
 		res, err = client.R().Get(ApiUrl)
 
 		switch res.StatusCode() {
