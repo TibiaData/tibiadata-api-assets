@@ -118,7 +118,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 		return fmt.Errorf("%s, func: creaturesWorker", err)
 	}
 
-	const raceEndpoint = "https://www.tibia.com/library/?subtopic=creatures&race="
+	const raceEndpointIndexer = "&race="
 
 	var safe []string
 
@@ -129,7 +129,8 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 			return
 		}
 
-		endpoint := strings.TrimPrefix(url, raceEndpoint)
+		raceIndex := strings.Index(url, raceEndpointIndexer)
+		endpoint := strings.TrimPrefix(url[raceIndex:], raceEndpointIndexer)
 		safe = append(safe, endpoint)
 		pluralName := s.Find("div").First().Text()
 		fields := strings.Fields(pluralName)
