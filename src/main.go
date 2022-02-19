@@ -1,46 +1,31 @@
 package main
 
 import (
-	"bytes"
 	"encoding/json"
-	"io/ioutil"
+	"flag"
 	"log"
-	"net/http"
-	"net/url"
 	"os"
 	"time"
 
-	"github.com/PuerkitoBio/goquery"
 	"github.com/go-resty/resty/v2"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/unicode/norm"
+)
+
+var (
+	// sleepFlag should be to sleep between requests
+	sleepFlag bool
+
+	TibiaComHost = "www.tibia.com"
 )
 
 const (
 	TibiaDataAPIhost = "dev.tibiadata.com"
 )
 
-type AssetsHouse struct {
-	HouseID   int    `json:"house_id"`
-	Town      string `json:"town"`
-	HouseType string `json:"type"`
-}
+func init() {
+	flag.BoolVar(&sleepFlag, "sleep", false, "Set to sleep between requests")
 
-type AssetsHouses struct {
-	Worlds []string      `json:"worlds"`
-	Towns  []string      `json:"towns"`
-	Houses []AssetsHouse `json:"houses"`
-}
-
-type SourceHousesOverview struct {
-	Houses struct {
-		HouseList []struct {
-			HouseID int `json:"house_id"`
-		} `json:"house_list"`
-		GuildhallList []struct {
-			HouseID int `json:"house_id"`
-		} `json:"guildhall_list"`
-	} `json:"houses"`
+	// Parse the flags
+	flag.Parse()
 }
 
 func main() {
@@ -66,101 +51,56 @@ func main() {
 	// Disable redirection of client (so we skip parsing maintenance page)
 	client.SetRedirectPolicy(resty.NoRedirectPolicy())
 
-	// defining values for request
-	var (
-		res *resty.Response
-		err error
-
-		AssetsHouses AssetsHouses
-
-		TibiaComhost = "www.tibia.com"
-	)
-
 	// overriding host with env
 	if isEnvExist("TIBIADATA_PROXY") {
-		TibiaComhost = getEnv("TIBIADATA_PROXY", "www.tibia.com")
+		TibiaComHost = getEnv("TIBIADATA_PROXY", "www.tibia.com")
 	}
 
-	res, err = client.R().Get("https://" + TibiaComhost + "/community/?subtopic=houses")
+	var builder Builder
 
-	switch res.StatusCode() {
-	case http.StatusOK:
-		log.Println("[info] Retrieving data successfully from tibia.com.")
-	default:
-		log.Fatalf("[error] Issue when collecting data from tibia.com. Error: %s", err)
-	}
-
-	// Convert body to io.Reader
-	resIo := bytes.NewReader(res.Body())
-	// wrap reader in a converting reader from ISO 8859-1 to UTF-8
-	resIo2 := norm.NFKC.Reader(charmap.ISO8859_1.NewDecoder().Reader(resIo))
-
-	// Load the HTML document
-	doc, _ := goquery.NewDocumentFromReader(resIo2)
+	err := builder.housesWorker(client)
 	if err != nil {
-		log.Fatalf("[error] Issue with goquery reading document. Error: %s", err)
+		log.Fatalf("[error] Issue with housesWorker. Error: %s", err)
 	}
 
-	// Find of this to get div with class BoxContent
-	doc.Find(".TableContentContainer .TableContent tbody tr").First().Next().Children().Each(func(index int, s *goquery.Selection) {
-		// generate list of worlds that have houses/guildhalls
-		s.Find("select").Children().NextAll().Each(func(i int, selection *goquery.Selection) {
-			// collect the world
-			AssetsHouses.Worlds = append(AssetsHouses.Worlds, selection.Text())
-		})
-
-		// generate list of towns that have houses/guildhalls
-		s.Find("input[name=town]").Each(func(i int, selection *goquery.Selection) {
-			// collect the town
-			AssetsHouses.Towns = append(AssetsHouses.Towns, selection.AttrOr("value", ""))
-		})
-
-	})
-
-	for _, town := range AssetsHouses.Towns {
-		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
-
-		// sleep for 500 ms for ratelimit on dev.tibiadata.com
-		time.Sleep(500 * time.Millisecond)
-
-		ApiUrl := "https://" + TibiaDataAPIhost + "/v3/houses/" + AssetsHouses.Worlds[0] + "/" + url.QueryEscape(town)
-		res, err = client.R().Get(ApiUrl)
-
-		switch res.StatusCode() {
-		case http.StatusOK:
-			// Get byte slice from string.
-			bytes := []byte(res.Body())
-
-			var cont SourceHousesOverview
-			err := json.Unmarshal(bytes, &cont)
-			if err != nil {
-				log.Fatalf("[error] Issue when unmarshaling data. Town is %s. Err: %s", town, err)
-			}
-
-			for _, value := range cont.Houses.HouseList {
-				AssetsHouses.Houses = append(AssetsHouses.Houses, AssetsHouse{
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "house",
-				})
-			}
-			for _, value := range cont.Houses.GuildhallList {
-				AssetsHouses.Houses = append(AssetsHouses.Houses, AssetsHouse{
-					HouseID:   value.HouseID,
-					Town:      town,
-					HouseType: "guildhall",
-				})
-			}
-
-		default:
-			log.Fatalf("[error] Issue when collecting data from %s. Error: %s", TibiaDataAPIhost, err)
-		}
-
+	if sleepFlag {
+		time.Sleep(time.Second / 2)
 	}
 
-	log.Println("[info] Generating output file: output.json")
-	file, _ := json.Marshal(AssetsHouses)
-	_ = ioutil.WriteFile("output.json", file, 0644)
+	err = builder.creaturesWorker(client)
+	if err != nil {
+		log.Fatalf("[error] Issue with creaturesWorker. Error: %s", err)
+	}
+
+	if sleepFlag {
+		time.Sleep(time.Second / 2)
+	}
+
+	err = builder.spellsWorker(client)
+	if err != nil {
+		log.Fatalf("[error] Issue with fansitesWorker. Error: %s", err)
+	}
+
+	log.Println("[info] Generating output file: data.json and data.min.json")
+	minFile, err := json.Marshal(builder)
+	if err != nil {
+		log.Fatalf("[error] Issue with marshaling min file. Error: %s", err)
+	}
+
+	err = os.WriteFile("./docs/data.min.json", minFile, 0644)
+	if err != nil {
+		log.Fatalf("[error] Issue writing the min file. Error: %s", err)
+	}
+
+	file, err := json.MarshalIndent(builder, "", "  ")
+	if err != nil {
+		log.Fatalf("[error] Issue with marshaling main file. Error: %s", err)
+	}
+
+	err = os.WriteFile("./docs/data.json", file, 0644)
+	if err != nil {
+		log.Fatalf("[error] Issue writing the main file. Error: %s", err)
+	}
 
 	log.Println("[info] TibiaData assets generator finished.")
 }
