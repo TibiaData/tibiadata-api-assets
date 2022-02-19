@@ -30,6 +30,14 @@ jobs:
         env:
           TIBIADATA_PROXY: ${{ secrets.TIBIADATA_PROXY }}
 
+      - name: JQ formatting JSON
+        run: |
+          # running jq -c . to compact output
+          jq -c . output.json > docs/data.min.json
+
+          # running jq . to easier readable file
+          jq . output.json > docs/data.json
+
       - name: Generate checksum for data.json
         run: |
           # generating checksum for all JSON files in folder
