@@ -32,6 +32,6 @@ jobs:
       - uses: EndBug/add-and-commit@v8
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
-          add: "['live', 'modules']"
+          add: "docs"
           # The message for the commit
           message: ".github/workflows/generate.yml: workflow generated JSON"
