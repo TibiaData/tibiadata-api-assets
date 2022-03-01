@@ -18,7 +18,7 @@ var (
 )
 
 const (
-	TibiaDataAPIhost = "dev.tibiadata.com"
+	TibiaDataAPIhost = "api.tibiadata.com"
 )
 
 func init() {
