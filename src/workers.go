@@ -87,6 +87,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 
 			for _, value := range cont.Houses.HouseList {
 				b.Houses = append(b.Houses, AssetsHouse{
+					Name:      value.Name,
 					HouseID:   value.HouseID,
 					Town:      town,
 					HouseType: "house",
@@ -95,6 +96,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 
 			for _, value := range cont.Houses.GuildhallList {
 				b.Houses = append(b.Houses, AssetsHouse{
+					Name:      value.Name,
 					HouseID:   value.HouseID,
 					Town:      town,
 					HouseType: "guildhall",
