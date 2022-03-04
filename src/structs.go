@@ -1,6 +1,7 @@
 package main
 
 type AssetsHouse struct {
+	Name      string `json:"name"`
 	HouseID   int    `json:"house_id"`
 	Town      string `json:"town"`
 	HouseType string `json:"type"`
@@ -16,7 +17,8 @@ type Houses struct {
 }
 
 type House struct {
-	HouseID int `json:"house_id"`
+	Name    string `json:"name"`
+	HouseID int    `json:"house_id"`
 }
 
 type Creature struct {
