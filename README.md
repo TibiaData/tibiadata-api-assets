@@ -1,6 +1,6 @@
 # TibiaData API assets
 
-JSON assets that are almost static like house_id mappings for the API.
+JSON assets that are almost static for the TibiaData API.
 
 This repo contains tooling that generates the assets json files used by the [tibiadata-api-go](https://github.com/TibiaData/tibiadata-api-go) image.
 
