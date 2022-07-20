@@ -94,8 +94,10 @@
     "Issavi",
     "Kazordoon",
     "Liberty Bay",
+    "Moonfall",
     "Port Hope",
     "Rathleton",
+    "Silvertides",
     "Svargrond",
     "Thais",
     "Venore",
@@ -3907,6 +3909,18 @@
       "type": "guildhall"
     },
     {
+      "name": "Cliffside",
+      "house_id": 53001,
+      "town": "Moonfall",
+      "type": "house"
+    },
+    {
+      "name": "House of the Rising Moon",
+      "house_id": 53002,
+      "town": "Moonfall",
+      "type": "guildhall"
+    },
+    {
       "name": "Bamboo Garden 1",
       "house_id": 46019,
       "town": "Port Hope",
@@ -4295,6 +4309,18 @@
       "house_id": 19002,
       "town": "Rathleton",
       "type": "guildhall"
+    },
+    {
+      "name": "Centre 1",
+      "house_id": 49001,
+      "town": "Silvertides",
+      "type": "house"
+    },
+    {
+      "name": "Centre 2",
+      "house_id": 49002,
+      "town": "Silvertides",
+      "type": "house"
     },
     {
       "name": "Arena Walk 1",
@@ -6846,6 +6872,11 @@
       "name": "Emerald Damselfly"
     },
     {
+      "endpoint": "emeraldtortoise",
+      "plural_name": "Emerald Tortoises",
+      "name": "Emerald Tortoise"
+    },
+    {
       "endpoint": "energeticbook",
       "plural_name": "Energetic Books",
       "name": "Energetic Book"
@@ -6974,6 +7005,11 @@
       "endpoint": "flyingbook",
       "plural_name": "Flying Books",
       "name": "Flying Book"
+    },
+    {
+      "endpoint": "foamstalker",
+      "plural_name": "Foam Stalkers",
+      "name": "Foam Stalker"
     },
     {
       "endpoint": "forestfury",
@@ -7136,6 +7172,16 @@
       "name": "Golden Servant"
     },
     {
+      "endpoint": "gorehorn",
+      "plural_name": "Gore Horns",
+      "name": "Gore Horn"
+    },
+    {
+      "endpoint": "gorerilla",
+      "plural_name": "Gorerillas",
+      "name": "Gorerilla"
+    },
+    {
       "endpoint": "gozzler",
       "plural_name": "Gozzlers",
       "name": "Gozzler"
@@ -7191,6 +7237,11 @@
       "name": "Haunted Treeling"
     },
     {
+      "endpoint": "headpecker",
+      "plural_name": "Headpeckers",
+      "name": "Headpecker"
+    },
+    {
       "endpoint": "hellfirefighter",
       "plural_name": "Hellfire Fighters",
       "name": "Hellfire Fighter"
@@ -7224,6 +7275,11 @@
       "endpoint": "carnisylvanhulking",
       "plural_name": "Hulking Carnisylvans",
       "name": "Hulking Carnisylvan"
+    },
+    {
+      "endpoint": "hulkingprehemoth",
+      "plural_name": "Hulking Prehemoths",
+      "name": "Hulking Prehemoth"
     },
     {
       "endpoint": "humongousfungus",
@@ -7339,6 +7395,11 @@
       "endpoint": "juggernaut",
       "plural_name": "Juggernauts",
       "name": "Juggernaut"
+    },
+    {
+      "endpoint": "junglemoa",
+      "plural_name": "Jungle Moas",
+      "name": "Jungle Moa"
     },
     {
       "endpoint": "juvenilebashmu",
@@ -7506,6 +7567,11 @@
       "name": "Magma Crawler"
     },
     {
+      "endpoint": "makara",
+      "plural_name": "Makaras",
+      "name": "Makara"
+    },
+    {
       "endpoint": "mammoth",
       "plural_name": "Mammoths",
       "name": "Mammoth"
@@ -7519,6 +7585,11 @@
       "endpoint": "manticore",
       "plural_name": "Manticores",
       "name": "Manticore"
+    },
+    {
+      "endpoint": "mantosaurus",
+      "plural_name": "Mantosauruses",
+      "name": "Mantosaurus"
     },
     {
       "endpoint": "manyfaces",
@@ -7569,6 +7640,11 @@
       "endpoint": "menacingcarnivor",
       "plural_name": "Menacing Carnivors",
       "name": "Menacing Carnivor"
+    },
+    {
+      "endpoint": "mercurialmenace",
+      "plural_name": "Mercurial Menaces",
+      "name": "Mercurial Menace"
     },
     {
       "endpoint": "mercuryblob",
@@ -7706,6 +7782,16 @@
       "name": "Mutated Tiger"
     },
     {
+      "endpoint": "nagaarcher",
+      "plural_name": "Naga Archers",
+      "name": "Naga Archer"
+    },
+    {
+      "endpoint": "nagawarrior",
+      "plural_name": "Naga Warriors",
+      "name": "Naga Warrior"
+    },
+    {
       "endpoint": "necromancer",
       "plural_name": "Necromancers",
       "name": "Necromancer"
@@ -7714,6 +7800,11 @@
       "endpoint": "nightfiend",
       "plural_name": "Nightfiends",
       "name": "Nightfiend"
+    },
+    {
+      "endpoint": "nighthunter",
+      "plural_name": "Nighthunters",
+      "name": "Nighthunter"
     },
     {
       "endpoint": "nightmarescion",
@@ -7749,6 +7840,11 @@
       "endpoint": "cultnovice",
       "plural_name": "Novices Of The Cult",
       "name": "Novice Of The Cult"
+    },
+    {
+      "endpoint": "noxiousripptor",
+      "plural_name": "Noxious Ripptors",
+      "name": "Noxious Ripptor"
     },
     {
       "endpoint": "nymph",
@@ -7884,6 +7980,11 @@
       "endpoint": "panda",
       "plural_name": "Pandas",
       "name": "Panda"
+    },
+    {
+      "endpoint": "parder",
+      "plural_name": "Parders",
+      "name": "Parder"
     },
     {
       "endpoint": "parrot",
@@ -8131,6 +8232,11 @@
       "name": "Rustheap Golem"
     },
     {
+      "endpoint": "sabretooth",
+      "plural_name": "Sabreteeth",
+      "name": "Sabretooth"
+    },
+    {
       "endpoint": "salamander",
       "plural_name": "Salamanders",
       "name": "Salamander"
@@ -8199,6 +8305,11 @@
       "endpoint": "shockhead",
       "plural_name": "Shock Heads",
       "name": "Shock Head"
+    },
+    {
+      "endpoint": "shriekingcrystal",
+      "plural_name": "Shrieking Cry-stals",
+      "name": "Shrieking Crystal"
     },
     {
       "endpoint": "sibang",
@@ -8346,6 +8457,11 @@
       "name": "Stalker"
     },
     {
+      "endpoint": "stalkingstalk",
+      "plural_name": "Stalking Stalks",
+      "name": "Stalking Stalk"
+    },
+    {
       "endpoint": "stampor",
       "plural_name": "Stampors",
       "name": "Stampor"
@@ -8369,6 +8485,16 @@
       "endpoint": "streakeddevourer",
       "plural_name": "Streaked Devourers",
       "name": "Streaked Devourer"
+    },
+    {
+      "endpoint": "sulphider",
+      "plural_name": "Sulphiders",
+      "name": "Sulphider"
+    },
+    {
+      "endpoint": "sulphurspouter",
+      "plural_name": "Sulphur Spouters",
+      "name": "Sulphur Spouter"
     },
     {
       "endpoint": "swamptroll",
@@ -8496,6 +8622,11 @@
       "name": "Twisted Shaper"
     },
     {
+      "endpoint": "twoheadedturtle",
+      "plural_name": "Two-headed Turtles",
+      "name": "Two-headed Turtles"
+    },
+    {
       "endpoint": "undeadcavebear",
       "plural_name": "Undead Cavebears",
       "name": "Undead Cavebear"
@@ -8514,6 +8645,11 @@
       "endpoint": "undeadgladiator",
       "plural_name": "Undead Gladiators",
       "name": "Undead Gladiator"
+    },
+    {
+      "endpoint": "undertaker",
+      "plural_name": "Undertakers",
+      "name": "Undertaker"
     },
     {
       "endpoint": "usurperarcher",
