@@ -44,6 +44,7 @@ var (
 		"ragingbrainsquid":       "Rage Squid",
 		"sorcerersapparition":    "Sorcerer's Apparition",
 		"soulbrokenharbinger":    "Soul-broken Harbinger",
+		"twoheadedturtle":        "Two-headed Turtles",
 		"girtablilu":             "Venerable Girtablilu",
 		"viscountmanbat":         "Vicious Manbat",
 		"whitedeer":              "White Deer",
