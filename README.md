@@ -1,8 +1,12 @@
 # TibiaData API assets
 
+[![assets-generator](https://github.com/TibiaData/tibiadata-api-assets/actions/workflows/generate.yml/badge.svg)](https://github.com/TibiaData/tibiadata-api-assets/actions/workflows/generate.yml)
+
 JSON assets that are almost static for the TibiaData API.
 
 This repo contains tooling that generates the assets json files used by the [tibiadata-api-go](https://github.com/TibiaData/tibiadata-api-go) image.
+
+The generated file can be accessed on [assets.tibiadata.com](https://assets.tibiadata.com) in a minified or pretty version.
 
 ## What's inside
 
@@ -11,6 +15,8 @@ The generation will be generating new json files on a scheduled interval, provid
 There are some details missing from the upstream servers called on by [tibiadata-api-go](https://github.com/TibiaData/tibiadata-api-go) application, so therefore this data provides information.
 
 Example of data that is missing is a list of valid worlds that can have houses/guildhalls or mapping for every houseid for us to provide the town and housetype.
+
+Assets that are available in the files are worlds, towns, houses, creatures and spells.
 
 ## General information
 
