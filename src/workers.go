@@ -44,7 +44,7 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 }
 
 func (b *Builder) housesWorker(client *resty.Client) error {
-	doc, err := getDoc(client, "https://"+TibiaComHost+"/community/?subtopic=houses")
+	doc, err := getDoc(client, TibiaComProtocol+"://"+TibiaComHost+"/community/?subtopic=houses")
 	if err != nil {
 		return fmt.Errorf("%s, func: housesWorker", err)
 	}
@@ -115,7 +115,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 }
 
 func (b *Builder) creaturesWorker(client *resty.Client) error {
-	doc, err := getDoc(client, "https://"+TibiaComHost+"/library/?subtopic=creatures")
+	doc, err := getDoc(client, TibiaComProtocol+"://"+TibiaComHost+"/library/?subtopic=creatures")
 	if err != nil {
 		return fmt.Errorf("%s, func: creaturesWorker", err)
 	}
@@ -202,7 +202,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 }
 
 func (b *Builder) spellsWorker(client *resty.Client) error {
-	doc, err := getDoc(client, "https://"+TibiaComHost+"/library/?subtopic=spells")
+	doc, err := getDoc(client, TibiaComProtocol+"://"+TibiaComHost+"/library/?subtopic=spells")
 	if err != nil {
 		return fmt.Errorf("%s, func: spellsWorker", err)
 	}

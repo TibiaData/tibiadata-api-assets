@@ -29,6 +29,7 @@ jobs:
           go run ./src -sleep .
         env:
           TIBIADATA_PROXY: ${{ secrets.TIBIADATA_PROXY }}
+          TIBIADATA_PROXY_PROTOCOL: ${{ secrets.TIBIADATA_PROXY_PROTOCOL }}
 
       - name: JQ formatting JSON
         run: |

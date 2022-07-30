@@ -14,7 +14,8 @@ var (
 	// sleepFlag should be to sleep between requests
 	sleepFlag bool
 
-	TibiaComHost = "www.tibia.com"
+	TibiaComHost     = "www.tibia.com"
+	TibiaComProtocol = "https"
 )
 
 const (
@@ -54,6 +55,11 @@ func main() {
 	// overriding host with env
 	if isEnvExist("TIBIADATA_PROXY") {
 		TibiaComHost = getEnv("TIBIADATA_PROXY", "www.tibia.com")
+
+		// overriding protocol with env
+		if isEnvExist("TIBIADATA_PROXY_PROTOCOL") {
+			TibiaComProtocol = getEnv("TIBIADATA_PROXY_PROTOCOL", "https")
+		}
 	}
 
 	var builder Builder
