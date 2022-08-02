@@ -124,7 +124,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 
 	var safe []string
 
-	creatures := doc.Find(".BoxContent div[style] div[style]").First()
+	creatures := doc.Find(".BoxContent .Creatures").First()
 	creatures.Find("div").Each(func(index int, s *goquery.Selection) {
 		url, exists := s.Find("a").Attr("href")
 		if !exists {
@@ -207,7 +207,7 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		return fmt.Errorf("%s, func: spellsWorker", err)
 	}
 
-	doc.Find("table.TableContent ~ table tr").First().NextAll().Each(func(index int, s *goquery.Selection) {
+	doc.Find(".Table3 table.TableContent tr").First().NextAll().Each(func(index int, s *goquery.Selection) {
 		if index == 0 {
 			return
 		}
