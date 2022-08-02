@@ -50,13 +50,13 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 	}
 
 	// Find of this to get div with class BoxContent
-	doc.Find(".TableContentContainer .TableContent tbody tr").First().Next().Children().Each(func(index int, s *goquery.Selection) {
-		// generate list of worlds that have houses/guildhalls
-		s.Find("select").Children().NextAll().Each(func(i int, selection *goquery.Selection) {
-			// collect the world
-			b.Worlds = append(b.Worlds, selection.Text())
-		})
+	doc.Find(".WorldSelectionDropDown select").Children().NextAll().Each(func(i int, selection *goquery.Selection) {
+		// collect the world
+		b.Worlds = append(b.Worlds, selection.Text())
+	})
 
+	// Find of this to get div with class BoxContent
+	doc.Find(".TableContentContainer .TableContent tbody tr").NextAll().Each(func(index int, s *goquery.Selection) {
 		// generate list of towns that have houses/guildhalls
 		s.Find("input[name=town]").Each(func(i int, selection *goquery.Selection) {
 			// collect the town
