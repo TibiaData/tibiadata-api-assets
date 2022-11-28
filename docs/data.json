@@ -6235,6 +6235,11 @@
       "name": "Blue Djinn"
     },
     {
+      "endpoint": "boarman",
+      "plural_name": "Boar Mans",
+      "name": "Boar Man"
+    },
+    {
       "endpoint": "boar",
       "plural_name": "Boars",
       "name": "Boar"
@@ -6348,6 +6353,11 @@
       "endpoint": "carnisylvansapling",
       "plural_name": "Carnisylvan Saplings",
       "name": "Carnisylvan Sapling"
+    },
+    {
+      "endpoint": "carnivostrich",
+      "plural_name": "Carnivostriches",
+      "name": "Carnivostrich"
     },
     {
       "endpoint": "carrionworm",
@@ -6475,6 +6485,11 @@
       "name": "Crab"
     },
     {
+      "endpoint": "crapeman",
+      "plural_name": "Crape Mans",
+      "name": "Crape Man"
+    },
+    {
       "endpoint": "crawler",
       "plural_name": "Crawlers",
       "name": "Crawler"
@@ -6553,6 +6568,11 @@
       "endpoint": "cultscholar",
       "plural_name": "Cult Scholars",
       "name": "Cult Scholar"
+    },
+    {
+      "endpoint": "cursedape",
+      "plural_name": "Cursed Apes",
+      "name": "Cursed Ape"
     },
     {
       "endpoint": "cursedbook",
@@ -7235,6 +7255,11 @@
       "name": "Hand Of Cursed Fate"
     },
     {
+      "endpoint": "harpy",
+      "plural_name": "Harpies",
+      "name": "Harpy"
+    },
+    {
       "endpoint": "hauntedtreeling",
       "plural_name": "Haunted Treelings",
       "name": "Haunted Treeling"
@@ -7323,6 +7348,21 @@
       "endpoint": "icecoldbook",
       "plural_name": "Icecold Books",
       "name": "Icecold Book"
+    },
+    {
+      "endpoint": "iksaucar",
+      "plural_name": "Iks Aucars",
+      "name": "Iks Aucar"
+    },
+    {
+      "endpoint": "ikschuka",
+      "plural_name": "Iks Chukas",
+      "name": "Iks Chuka"
+    },
+    {
+      "endpoint": "ikspututu",
+      "plural_name": "Iks Pututus",
+      "name": "Iks Pututu"
     },
     {
       "endpoint": "infernaldemon",
@@ -7483,6 +7523,11 @@
       "endpoint": "lich",
       "plural_name": "Liches",
       "name": "Lich"
+    },
+    {
+      "endpoint": "liodileman",
+      "plural_name": "Liodiles",
+      "name": "Liodileman"
     },
     {
       "endpoint": "lion",
@@ -8198,6 +8243,11 @@
       "endpoint": "retchinghorror",
       "plural_name": "Retching Horrors",
       "name": "Retching Horror"
+    },
+    {
+      "endpoint": "rhindeer",
+      "plural_name": "Rhindeer",
+      "name": "Rhindeer"
     },
     {
       "endpoint": "ripperspectre",
@@ -8947,6 +8997,26 @@
       "endpoint": "avalancherune"
     },
     {
+      "name": "Avatar of Light",
+      "formula": "uteta res sac",
+      "endpoint": "avataroflight"
+    },
+    {
+      "name": "Avatar of Nature",
+      "formula": "uteta res dru",
+      "endpoint": "avatarofnature"
+    },
+    {
+      "name": "Avatar of Steel",
+      "formula": "uteta res eq",
+      "endpoint": "avatarofsteel"
+    },
+    {
+      "name": "Avatar of Storm",
+      "formula": "uteta res ven",
+      "endpoint": "avatarofstorm"
+    },
+    {
       "name": "Berserk",
       "formula": "exori",
       "endpoint": "berserk"
@@ -9092,6 +9162,16 @@
       "endpoint": "divinedazzle"
     },
     {
+      "name": "Divine Empowerment",
+      "formula": "utevo grav san",
+      "endpoint": "divineempowerment"
+    },
+    {
+      "name": "Divine Grenade",
+      "formula": "exevo tempo mas san",
+      "endpoint": "divinegrenade"
+    },
+    {
       "name": "Divine Healing",
       "formula": "exura san",
       "endpoint": "divinehealing"
@@ -9160,6 +9240,11 @@
       "name": "Ethereal Spear",
       "formula": "exori con",
       "endpoint": "etherealspear"
+    },
+    {
+      "name": "Executioner's Throw",
+      "formula": "exori amp kor",
+      "endpoint": "executionersthrow"
     },
     {
       "name": "Explosion Rune",
@@ -9232,6 +9317,11 @@
       "endpoint": "frontsweep"
     },
     {
+      "name": "Great Death Beam",
+      "formula": "exevo max mort",
+      "endpoint": "greatdeathbeam"
+    },
+    {
       "name": "Great Energy Beam",
       "formula": "exevo gran vis lux",
       "endpoint": "greatenergybeam"
@@ -9290,6 +9380,11 @@
       "name": "Holy Missile Rune",
       "formula": "adori san",
       "endpoint": "holymissilerune"
+    },
+    {
+      "name": "Ice Burst",
+      "formula": "exevo ulus frigo",
+      "endpoint": "iceburst"
     },
     {
       "name": "Ice Strike",
@@ -9555,6 +9650,11 @@
       "name": "Swift Foot",
       "formula": "utamo tempo san",
       "endpoint": "swiftfoot"
+    },
+    {
+      "name": "Terra Burst",
+      "formula": "exevo ulus tera",
+      "endpoint": "terraburst"
     },
     {
       "name": "Terra Strike",
