@@ -207,7 +207,7 @@ func (b *Builder) spellsWorker(client *resty.Client) error {
 		return fmt.Errorf("%s, func: spellsWorker", err)
 	}
 
-	doc.Find(".Table3 table.TableContent tr").First().NextAll().Each(func(index int, s *goquery.Selection) {
+	doc.Find(".Table3 table.TableContent tr").Each(func(index int, s *goquery.Selection) {
 		if index == 0 {
 			return
 		}
