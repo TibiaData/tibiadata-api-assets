@@ -8977,6 +8977,11 @@
   ],
   "spells": [
     {
+      "name": "Animate Dead Rune",
+      "formula": "adana mort",
+      "endpoint": "animatedeadrune"
+    },
+    {
       "name": "Annihilation",
       "formula": "exori gran ico",
       "endpoint": "annihilation"
