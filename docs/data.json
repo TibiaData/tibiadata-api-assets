@@ -6548,6 +6548,11 @@
       "name": "Crypt Warden"
     },
     {
+      "endpoint": "cryptwarrior",
+      "plural_name": "Crypt Warriors",
+      "name": "Crypt Warrior"
+    },
+    {
       "endpoint": "crystalspider",
       "plural_name": "Crystal Spiders",
       "name": "Crystal Spider"
