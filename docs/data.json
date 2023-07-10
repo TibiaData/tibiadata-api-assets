@@ -6215,6 +6215,11 @@
       "name": "Blightwalker"
     },
     {
+      "endpoint": "bloatedmanmaggot",
+      "plural_name": "Bloated Man-maggots",
+      "name": "Bloated Manmaggot"
+    },
+    {
       "endpoint": "bloodbeast",
       "plural_name": "Blood Beasts",
       "name": "Blood Beast"
@@ -6465,6 +6470,11 @@
       "name": "Cobra"
     },
     {
+      "endpoint": "converter",
+      "plural_name": "Converters",
+      "name": "Converter"
+    },
+    {
       "endpoint": "charlatan",
       "plural_name": "Corym Charlatans",
       "name": "Corym Charlatan"
@@ -6580,6 +6590,11 @@
       "name": "Cult Scholar"
     },
     {
+      "endpoint": "cunningwerepanther",
+      "plural_name": "Cunning Werepanthers",
+      "name": "Cunning Werepanther"
+    },
+    {
       "endpoint": "cursedape",
       "plural_name": "Cursed Apes",
       "name": "Cursed Ape"
@@ -6638,6 +6653,31 @@
       "endpoint": "darktorturer",
       "plural_name": "Dark Torturers",
       "name": "Dark Torturer"
+    },
+    {
+      "endpoint": "darklightconstruct",
+      "plural_name": "Darklight Constructs",
+      "name": "Darklight Construct"
+    },
+    {
+      "endpoint": "darklightemitter",
+      "plural_name": "Darklight Emitters",
+      "name": "Darklight Emitter"
+    },
+    {
+      "endpoint": "darklightmatter",
+      "plural_name": "Darklight Matters",
+      "name": "Darklight Matter"
+    },
+    {
+      "endpoint": "darklightsource",
+      "plural_name": "Darklight Sources",
+      "name": "Darklight Source"
+    },
+    {
+      "endpoint": "darklightstriker",
+      "plural_name": "Darklight Strikers",
+      "name": "Darklight Striker"
     },
     {
       "endpoint": "asura",
@@ -6988,6 +7028,11 @@
       "endpoint": "feralsphinx",
       "plural_name": "Feral Sphinxes",
       "name": "Feral Sphinx"
+    },
+    {
+      "endpoint": "feralwerecrocodile",
+      "plural_name": "Feral Werecrocodiles",
+      "name": "Feral Werecrocodile"
     },
     {
       "endpoint": "feversleep",
@@ -7690,6 +7735,11 @@
       "name": "Mean Lost Soul"
     },
     {
+      "endpoint": "meanderingmushroom",
+      "plural_name": "Meandering Mushrooms",
+      "name": "Meandering Mushroom"
+    },
+    {
       "endpoint": "medusa",
       "plural_name": "Medusae",
       "name": "Medusa"
@@ -7840,6 +7890,11 @@
       "name": "Mutated Tiger"
     },
     {
+      "endpoint": "mycobionticbeetle",
+      "plural_name": "Mycobiontic Beetles",
+      "name": "Mycobiontic Beetle"
+    },
+    {
       "endpoint": "nagaarcher",
       "plural_name": "Naga Archers",
       "name": "Naga Archer"
@@ -7943,6 +7998,16 @@
       "endpoint": "omnivora",
       "plural_name": "Omnivoras",
       "name": "Omnivora"
+    },
+    {
+      "endpoint": "oozingcarcass",
+      "plural_name": "Oozing Carcasses",
+      "name": "Oozing Carcass"
+    },
+    {
+      "endpoint": "oozingcorpus",
+      "plural_name": "Oozing Corpuses",
+      "name": "Oozing Corpus"
     },
     {
       "endpoint": "orcberserker",
@@ -8285,6 +8350,11 @@
       "name": "Rotten Golem"
     },
     {
+      "endpoint": "rottenmanmaggot",
+      "plural_name": "Rotten Man-maggots",
+      "name": "Rotten Manmaggot"
+    },
+    {
       "endpoint": "rotworm",
       "plural_name": "Rotworms",
       "name": "Rotworm"
@@ -8438,6 +8508,16 @@
       "endpoint": "sonofverminor",
       "plural_name": "Sons Of Verminor",
       "name": "Son Of Verminor"
+    },
+    {
+      "endpoint": "soppingcarcass",
+      "plural_name": "Sopping Carcasses",
+      "name": "Sopping Carcass"
+    },
+    {
+      "endpoint": "soppingcorpus",
+      "plural_name": "Sopping Corpuses",
+      "name": "Sopping Corpus"
     },
     {
       "endpoint": "sorcerersapparition",
@@ -8805,6 +8885,16 @@
       "name": "Walker"
     },
     {
+      "endpoint": "walkingpillar",
+      "plural_name": "Walking Pillars",
+      "name": "Walking Pillar"
+    },
+    {
+      "endpoint": "wanderingpillar",
+      "plural_name": "Wandering Pillars",
+      "name": "Wandering Pillar"
+    },
+    {
       "endpoint": "wargolem",
       "plural_name": "War Golems",
       "name": "War Golem"
@@ -8865,6 +8955,11 @@
       "name": "Wereboar"
     },
     {
+      "endpoint": "werecrocodile",
+      "plural_name": "Werecrocodiles",
+      "name": "Werecrocodile"
+    },
+    {
       "endpoint": "werefox",
       "plural_name": "Werefoxes",
       "name": "Werefox"
@@ -8890,6 +8985,16 @@
       "name": "Werelion"
     },
     {
+      "endpoint": "werepanther",
+      "plural_name": "Werepanthers",
+      "name": "Werepanther"
+    },
+    {
+      "endpoint": "weretiger",
+      "plural_name": "Weretigers",
+      "name": "Weretiger"
+    },
+    {
       "endpoint": "werewolf",
       "plural_name": "Werewolves",
       "name": "Werewolf"
@@ -8908,6 +9013,16 @@
       "endpoint": "whiteshade",
       "plural_name": "White Shades",
       "name": "White Shade"
+    },
+    {
+      "endpoint": "whitetiger",
+      "plural_name": "White Tigers",
+      "name": "White Tiger"
+    },
+    {
+      "endpoint": "whiteweretiger",
+      "plural_name": "White Weretigers",
+      "name": "White Weretiger"
     },
     {
       "endpoint": "wiggler",
