@@ -25,9 +25,9 @@
   <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css
     integrity=sha384-fFxL8wXRpg9gVqGpY+URMtLr3fLL0WBbo4NBQ+IWwMDYjIjI5VQ46XlJm5+BUlXJ crossorigin=anonymous>
 
-  <link
+  <link rel="stylesheet"
     href="https://assets.tibiadata.com/css/bundle.min.51d3fae7cf8416166d7df6e3532efe413cf79e1307a64a74520449dabfd72700f693bdfd63aedebc363ef481d5a936e0.css"
-    rel="stylesheet" integrity="sha384-UdP658&#43;EFhZtffbjUy7&#43;QTz3nhMHpkp0UgRJ2r/XJwD2k739Y67evDY&#43;9IHVqTbg">
+    integrity="sha384-UdP658+EFhZtffbjUy7+QTz3nhMHpkp0UgRJ2r/XJwD2k739Y67evDY+9IHVqTbg" crossorigin="anonymous">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-dark-32x32.png">
@@ -35,24 +35,27 @@
   <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body class="d-flex flex-column">
-  <nav class="navbar navbar-expand-lg bg-dark-subtle sticky-top border-bottom" data-bs-theme="dark">
-    <div class="container container-xxl">
-      <a class="navbar-brand align-items-center" href="https://tibiadata.com/">
-        <img src="/images/favicon-light-32x32.png" alt="TibiaData logo" height="32px" width="32px">
-        <span class="fs-4 align-middle">TibiaData</span>
-      </a>
-    </div>
-  </nav>
-  <main class="flex-shrink-0 pb-0">
-    <div id="content">
+<body class="d-flex flex-column h-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark border-bottom">
+      <div class="container container-xxl">
+        <a class="navbar-brand" href="https://tibiadata.com/">
+          <img src="/images/favicon-light-32x32.png" alt="TibiaData logo" height="32px" width="32px" class="me-1">
+          <span class="fs-4 align-middle">TibiaData</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-shrink-0">
 
 
-      <div class="container p-0">
+    <div class="container">
+      <div id="section-intro">
         <div class="row">
 
           <div class="col-md-7 col-lg-8">
-            <div class="container px-4 py-5">
+            <div class="px-4 pb-2 pt-5">
 
               <h1 class="pb-2 border-bottom">TibiaData Assets</h1>
               <p>
@@ -128,7 +131,8 @@
         </div>
       </div>
 
-      <div class="container p-0 py-5 text-center">
+      <!-- Social media start -->
+      <div class="p-0 py-5 text-center">
         <h2 class="border-top pt-5">Follow us on social media</h2>
 
         <div class="btn-group d-flex">
@@ -156,13 +160,13 @@
           </div>
         </div>
       </div>
+      <!-- Social media stop -->
 
     </div>
   </main>
+
   <footer class="footer mt-auto pt-4 border-top">
     <div class="container container-xxl">
-
-
 
       <div class="row row-cols-4">
         <div class="col-8 col-lg-4 col-xl-6 mb-3">
@@ -174,12 +178,10 @@
         </div>
 
         <div class="col-4 col-lg-2 col-xl-2 mb-3">
-
           <img
             src="/images/supported_fansite.d7b8fcb3524af2cd0fbcdca0686ff9bb733c3fe9c232849d7971528412f09610e71a54b17d0acf4578ebc2747bc32a80.png"
             alt="Tibia supported fansite icon" width="100" height="100"
             integrity="sha384-17j8s1JK8s0PvNygaG/5u3M8P&#43;nCMoSdeXFShBLwlhDnGlSxfQrPRXjrwnR7wyqA" />
-
         </div>
 
         <div class="col-6 col-lg-3 col-xl-2 mb-3">
@@ -248,8 +250,6 @@
         </div>
       </div>
 
-
-
       <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 pb-2 border-top">
         <p>© 2016 - 2023 TibiaData. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
@@ -288,11 +288,9 @@
     </div>
 
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-
   <script src="https://cdn.jsdelivr.net/gh/twbs/bootstrap@5.3.2/site/static/docs/5.3/assets/js/color-modes.min.js"
     crossorigin="anonymous"></script>
 </body>
