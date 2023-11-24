@@ -68,7 +68,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 	for _, town := range b.Towns {
 		log.Printf("[info] Retrieving data about houses and guildhalls in %s.", town)
 
-		ApiUrl := "https://" + TibiaDataAPIhost + "/v4/houses/" + b.Worlds[0] + "/" + url.QueryEscape(town)
+		ApiUrl := "https://" + TibiaDataAPIhost + "/v3/houses/" + b.Worlds[0] + "/" + url.QueryEscape(town)
 		res, err := client.R().Get(ApiUrl)
 		if err != nil {
 			return fmt.Errorf("Issue getting %s endpoint. Error: %s", ApiUrl, err)
