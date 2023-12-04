@@ -6313,6 +6313,21 @@
       "name": "Bug"
     },
     {
+      "endpoint": "bulltauralchemist",
+      "plural_name": "Bulltaur Alchemists",
+      "name": "Bulltaur Alchemist"
+    },
+    {
+      "endpoint": "bulltaurbrute",
+      "plural_name": "Bulltaur Brutes",
+      "name": "Bulltaur Brute"
+    },
+    {
+      "endpoint": "bulltaurforgepriest",
+      "plural_name": "Bulltaur Forgepriests",
+      "name": "Bulltaur Forgepriest"
+    },
+    {
       "endpoint": "burningcursedbook",
       "plural_name": "Burning Books",
       "name": "Burning Cursedbook"
@@ -6776,6 +6791,11 @@
       "endpoint": "dog",
       "plural_name": "Dogs",
       "name": "Dog"
+    },
+    {
+      "endpoint": "dragolisk",
+      "plural_name": "Dragolisks",
+      "name": "Dragolisk"
     },
     {
       "endpoint": "dragonhatchling",
@@ -7408,6 +7428,11 @@
       "name": "Iks Pututu"
     },
     {
+      "endpoint": "iksyapunac",
+      "plural_name": "Iks Yapunacs",
+      "name": "Iks Yapunac"
+    },
+    {
       "endpoint": "infernaldemon",
       "plural_name": "Infernal Demons",
       "name": "Infernal Demon"
@@ -7733,6 +7758,11 @@
       "name": "Medusa"
     },
     {
+      "endpoint": "megadragon",
+      "plural_name": "Mega Dragons",
+      "name": "Mega Dragon"
+    },
+    {
       "endpoint": "menacingcarnivor",
       "plural_name": "Menacing Carnivors",
       "name": "Menacing Carnivor"
@@ -7826,6 +7856,16 @@
       "endpoint": "misguidedranged",
       "plural_name": "Misguided Thieves",
       "name": "Misguided Ranged"
+    },
+    {
+      "endpoint": "mitmahscout",
+      "plural_name": "Mitmah Scouts",
+      "name": "Mitmah Scout"
+    },
+    {
+      "endpoint": "mitmahseer",
+      "plural_name": "Mitmah Seers",
+      "name": "Mitmah Seer"
     },
     {
       "endpoint": "monk",
@@ -8891,6 +8931,11 @@
       "endpoint": "warwolf",
       "plural_name": "War Wolves",
       "name": "War Wolf"
+    },
+    {
+      "endpoint": "wardragon",
+      "plural_name": "Wardragons",
+      "name": "Wardragon"
     },
     {
       "endpoint": "warlock",
