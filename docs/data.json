@@ -9600,6 +9600,16 @@
       "endpoint": "invisible"
     },
     {
+      "name": "Lesser Ethereal Spear",
+      "formula": "exori con infir",
+      "endpoint": "lesseretherealspear"
+    },
+    {
+      "name": "Lesser Front Sweep",
+      "formula": "exori min infir",
+      "endpoint": "lesserfrontsweep"
+    },
+    {
       "name": "Levitate",
       "formula": "exani hur \"up|down\"",
       "endpoint": "levitate"
