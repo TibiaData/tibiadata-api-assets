@@ -19,14 +19,14 @@ import (
 func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 	res, err := client.R().Get(endpoint)
 	if err != nil {
-		return nil, fmt.Errorf("Issue getting doc for %s endpoint. Error: %s", endpoint, err)
+		return nil, fmt.Errorf("issue getting doc for %s endpoint. Error: %s", endpoint, err)
 	}
 
 	switch res.StatusCode() {
 	case http.StatusOK:
 		log.Println("[info] Retrieving data successfully from tibia.com.")
 	default:
-		return nil, fmt.Errorf("Issue when collecting data from tibia.com. StatusCode: %d", res.StatusCode())
+		return nil, fmt.Errorf("issue when collecting data from tibia.com. StatusCode: %d", res.StatusCode())
 	}
 
 	// Convert body to io.Reader
@@ -37,7 +37,7 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 	// Load the HTML document
 	doc, err := goquery.NewDocumentFromReader(resIo2)
 	if err != nil {
-		return nil, fmt.Errorf("Issue with goquery reading document. Error: %s", err)
+		return nil, fmt.Errorf("issue with goquery reading document. Error: %s", err)
 	}
 
 	return doc, nil
@@ -71,7 +71,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 		ApiUrl := "https://" + TibiaDataAPIhost + "/v4/houses/" + b.Worlds[0] + "/" + url.QueryEscape(town)
 		res, err := client.R().Get(ApiUrl)
 		if err != nil {
-			return fmt.Errorf("Issue getting %s endpoint. Error: %s", ApiUrl, err)
+			return fmt.Errorf("issue getting %s endpoint. Error: %s", ApiUrl, err)
 		}
 
 		switch res.StatusCode() {
@@ -82,7 +82,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 			var cont SourceHousesOverview
 			err := json.Unmarshal(bytes, &cont)
 			if err != nil {
-				return fmt.Errorf("Issue when unmarshaling data. Town is %s. Err: %s", town, err)
+				return fmt.Errorf("issue when unmarshaling data. Town is %s. Err: %s", town, err)
 			}
 
 			for _, value := range cont.Houses.HouseList {
@@ -103,7 +103,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 				})
 			}
 		default:
-			return fmt.Errorf("Issue when collecting data from %s. StatusCode: %d", TibiaDataAPIhost, res.StatusCode())
+			return fmt.Errorf("issue when collecting data from %s. StatusCode: %d", TibiaDataAPIhost, res.StatusCode())
 		}
 
 		if sleepFlag {
