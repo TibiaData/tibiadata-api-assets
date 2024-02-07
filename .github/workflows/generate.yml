@@ -24,12 +24,16 @@ jobs:
         with:
           go-version-file: go.mod
 
+      - name: Connect to Tailnet
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:github-runner
+
       - name: Run go code
         run: |
           go run ./src -sleep .
-        env:
-          TIBIADATA_PROXY: ${{ secrets.TIBIADATA_PROXY }}
-          TIBIADATA_PROXY_PROTOCOL: ${{ secrets.TIBIADATA_PROXY_PROTOCOL }}
 
       - name: JQ formatting JSON
         run: |
