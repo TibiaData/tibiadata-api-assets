@@ -12,7 +12,9 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/go-resty/resty/v2"
+	"golang.org/x/text/cases"
 	"golang.org/x/text/encoding/charmap"
+	"golang.org/x/text/language"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -148,7 +150,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 			b.Creatures = append(b.Creatures, Creature{
 				Endpoint:   endpoint,
 				PluralName: pluralName,
-				Name:       strings.Title(endpoint),
+				Name:       cases.Title(language.English).String(endpoint),
 			})
 		} else {
 			var rawNameBuilder string
@@ -166,7 +168,7 @@ func (b *Builder) creaturesWorker(client *resty.Client) error {
 				rawNameBuilder += currentField
 			}
 
-			missingWord := strings.Title(strings.ReplaceAll(endpoint, rawNameBuilder, ""))
+			missingWord := cases.Title(language.English).String(strings.ReplaceAll(endpoint, rawNameBuilder, ""))
 
 			var creature string
 			for i, f := range fields {
