@@ -31,7 +31,7 @@ jobs:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:github-runner
-          version: 1.58.2
+          version: 1.60.1
 
       - name: Run go code
         run: |
