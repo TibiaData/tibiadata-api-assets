@@ -15,6 +15,8 @@ on:
 jobs:
   assets-generator:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.add-and-commit.outputs.committed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,8 +55,17 @@ jobs:
         working-directory: docs
 
       - uses: EndBug/add-and-commit@v9
+        id: add-and-commit
         with:
-          # The arguments for the `git add` command (see the paragraph below for more info)
           add: "docs"
-          # The message for the commit
           message: ".github/workflows/generate.yml: workflow generated JSON"
+
+  github-pages-deploy:
+    runs-on: ubuntu-latest
+    needs: assets-generator
+    if: needs.assets-generator.outputs.changed == true
+    steps:
+      - name: Dispatch GitHub Pages deployment
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: github-pages
