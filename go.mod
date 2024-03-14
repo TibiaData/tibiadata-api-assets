@@ -1,6 +1,6 @@
 module github.com/TibiaData/tibiadata-api-assets
 
-go 1.21
+go 1.22
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.1
@@ -10,5 +10,5 @@ require (
 
 require (
 	github.com/andybalholm/cascadia v1.3.2 // indirect
-	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/net v0.22.0 // indirect
 )
