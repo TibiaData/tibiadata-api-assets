@@ -9604,12 +9604,12 @@
     },
     {
       "name": "Lesser Ethereal Spear",
-      "formula": "exori con infir",
+      "formula": "exori infir con",
       "endpoint": "lesseretherealspear"
     },
     {
       "name": "Lesser Front Sweep",
-      "formula": "exori min infir",
+      "formula": "exori infir min",
       "endpoint": "lesserfrontsweep"
     },
     {
