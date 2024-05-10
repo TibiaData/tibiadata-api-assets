@@ -1,6 +1,7 @@
 # TibiaData API assets
 
 [![assets-generator](https://github.com/TibiaData/tibiadata-api-assets/actions/workflows/generate.yml/badge.svg)](https://github.com/TibiaData/tibiadata-api-assets/actions/workflows/generate.yml)
+[![GitHub license](https://img.shields.io/github/license/TibiaData/tibiadata-api-assets)](https://github.com/TibiaData/tibiadata-api-assets/blob/main/LICENSE)
 
 JSON assets that are almost static for the TibiaData API.
 
