@@ -91,6 +91,7 @@
   "towns": [
     "Ab'Dendriel",
     "Ankrahmun",
+    "Candia",
     "Carlin",
     "Darashia",
     "Edron",
@@ -6087,6 +6088,11 @@
       "name": "Ancient Scarab"
     },
     {
+      "endpoint": "angrysugarfairy",
+      "plural_name": "Angry Sugar Fairies",
+      "name": "Angry Sugar Fairy"
+    },
+    {
       "endpoint": "animatedfeather",
       "plural_name": "Animated Feathers",
       "name": "Animated Feather"
@@ -6362,6 +6368,16 @@
       "name": "Calamary"
     },
     {
+      "endpoint": "candyflosselemental",
+      "plural_name": "Candy Floss Elementals",
+      "name": "Candy Floss Elemental"
+    },
+    {
+      "endpoint": "candyhorror",
+      "plural_name": "Candy Horrors",
+      "name": "Candy Horror"
+    },
+    {
       "endpoint": "capriciousphantom",
       "plural_name": "Capricious Phantoms",
       "name": "Capricious Phantom"
@@ -6435,6 +6451,11 @@
       "endpoint": "chicken",
       "plural_name": "Chickens",
       "name": "Chicken"
+    },
+    {
+      "endpoint": "chocolateblob",
+      "plural_name": "Chocolate Blobs",
+      "name": "Chocolate Blob"
     },
     {
       "endpoint": "chokingfear",
@@ -6545,6 +6566,11 @@
       "endpoint": "crazedwintervanguard",
       "plural_name": "Crazed Winter Vanguards",
       "name": "Crazed Winter Vanguard"
+    },
+    {
+      "endpoint": "creamblob",
+      "plural_name": "Cream Blobs",
+      "name": "Cream Blob"
     },
     {
       "endpoint": "crocodile",
@@ -7157,6 +7183,11 @@
       "name": "Frost Troll"
     },
     {
+      "endpoint": "fruitdrop",
+      "plural_name": "Fruit Drops",
+      "name": "Fruit Drop"
+    },
+    {
       "endpoint": "fury",
       "plural_name": "Furies",
       "name": "Fury"
@@ -7200,6 +7231,11 @@
       "endpoint": "giantspider",
       "plural_name": "Giant Spiders",
       "name": "Giant Spider"
+    },
+    {
+      "endpoint": "gingerbreadman",
+      "plural_name": "Gingerbread Mans",
+      "name": "Gingerbread Man"
     },
     {
       "endpoint": "girtabliluwarrior",
@@ -7260,6 +7296,11 @@
       "endpoint": "goblin",
       "plural_name": "Goblins",
       "name": "Goblin"
+    },
+    {
+      "endpoint": "gogglecake",
+      "plural_name": "Goggle Cakes",
+      "name": "Goggle Cake"
     },
     {
       "endpoint": "goldenservant",
@@ -7370,6 +7411,11 @@
       "endpoint": "hideousfungus",
       "plural_name": "Hideous Fungi",
       "name": "Hideous Fungus"
+    },
+    {
+      "endpoint": "honeyelemental",
+      "plural_name": "Honey Elementals",
+      "name": "Honey Elemental"
     },
     {
       "endpoint": "carnisylvanhulking",
@@ -7947,6 +7993,11 @@
       "name": "Necromancer"
     },
     {
+      "endpoint": "nibblemaw",
+      "plural_name": "Nibblemaws",
+      "name": "Nibblemaw"
+    },
+    {
       "endpoint": "nightfiend",
       "plural_name": "Nightfiends",
       "name": "Nightfiend"
@@ -8292,6 +8343,11 @@
       "name": "Quara Hydromancer"
     },
     {
+      "endpoint": "quaralooter",
+      "plural_name": "Quara Looters",
+      "name": "Quara Looter"
+    },
+    {
       "endpoint": "quaramantassinscout",
       "plural_name": "Quara Mantassin Scouts",
       "name": "Quara Mantassin Scout"
@@ -8312,6 +8368,11 @@
       "name": "Quara Pincher"
     },
     {
+      "endpoint": "quaraplunderer",
+      "plural_name": "Quara Plunderers",
+      "name": "Quara Plunderer"
+    },
+    {
       "endpoint": "quarapredatorscout",
       "plural_name": "Quara Predator Scouts",
       "name": "Quara Predator Scout"
@@ -8320,6 +8381,11 @@
       "endpoint": "quarapredator",
       "plural_name": "Quara Predators",
       "name": "Quara Predator"
+    },
+    {
+      "endpoint": "quararaider",
+      "plural_name": "Quara Raiders",
+      "name": "Quara Raider"
     },
     {
       "endpoint": "rabbit",
@@ -8370,6 +8436,21 @@
       "endpoint": "roaringlion",
       "plural_name": "Roaring Lions",
       "name": "Roaring Lion"
+    },
+    {
+      "endpoint": "rootthingambershaper",
+      "plural_name": "Rootthing Amber Shapers",
+      "name": "Rootthing Amber Shaper"
+    },
+    {
+      "endpoint": "rootthingbugtracker",
+      "plural_name": "Rootthing Bug Trackers",
+      "name": "Rootthing Bug Tracker"
+    },
+    {
+      "endpoint": "rootthingnutshell",
+      "plural_name": "Rootthing Nutshells",
+      "name": "Rootthing Nutshell"
     },
     {
       "endpoint": "rorc",
@@ -8667,6 +8748,16 @@
       "name": "Streaked Devourer"
     },
     {
+      "endpoint": "sugarcubeworker",
+      "plural_name": "Sugar Cube Workers",
+      "name": "Sugar Cube Worker"
+    },
+    {
+      "endpoint": "sugarcube",
+      "plural_name": "Sugar Cubes",
+      "name": "Sugar Cube"
+    },
+    {
       "endpoint": "sulphider",
       "plural_name": "Sulphiders",
       "name": "Sulphider"
@@ -8780,6 +8871,16 @@
       "endpoint": "truemidnight",
       "plural_name": "True Midnight Asuras",
       "name": "True Midnight "
+    },
+    {
+      "endpoint": "trufflecook",
+      "plural_name": "Truffle Cooks",
+      "name": "Truffle Cook"
+    },
+    {
+      "endpoint": "truffle",
+      "plural_name": "Truffles",
+      "name": "Truffle"
     },
     {
       "endpoint": "tunneltyrant",
