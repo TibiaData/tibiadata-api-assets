@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"runtime"
 	"strings"
 	"time"
 
@@ -19,6 +20,11 @@ import (
 )
 
 func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
+	// Get the details of the calling function
+	pc, _, _, _ := runtime.Caller(1)
+	callingFunc := strings.Split(runtime.FuncForPC(pc).Name(), ".")[2]
+
+	// Get the document from the endpoint
 	res, err := client.R().Get(endpoint)
 	if err != nil {
 		return nil, fmt.Errorf("issue getting doc for %s endpoint. Error: %s", endpoint, err)
@@ -26,9 +32,9 @@ func getDoc(client *resty.Client, endpoint string) (*goquery.Document, error) {
 
 	switch res.StatusCode() {
 	case http.StatusOK:
-		log.Println("[info] Retrieving data successfully from tibia.com.")
+		log.Printf("[info] Retrieving data successfully for %s from tibia.com.", callingFunc)
 	default:
-		return nil, fmt.Errorf("issue when collecting data from tibia.com. StatusCode: %d", res.StatusCode())
+		return nil, fmt.Errorf("issue when collecting data for %s from tibia.com. StatusCode: %d", callingFunc, res.StatusCode())
 	}
 
 	// Convert body to io.Reader
@@ -105,7 +111,7 @@ func (b *Builder) housesWorker(client *resty.Client) error {
 				})
 			}
 		default:
-			return fmt.Errorf("issue when collecting data from %s. StatusCode: %d", TibiaDataAPIhost, res.StatusCode())
+			log.Printf("[warn] Issue when retrieving data about houses and guildhalls in %s. StatusCode: %d", town, res.StatusCode())
 		}
 
 		if sleepFlag {
