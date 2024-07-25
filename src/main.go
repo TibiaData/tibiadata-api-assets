@@ -5,6 +5,7 @@ import (
 	"flag"
 	"log"
 	"os"
+	"reflect"
 	"time"
 
 	"github.com/go-resty/resty/v2"
@@ -87,6 +88,10 @@ func main() {
 		log.Fatalf("[error] Issue with fansitesWorker. Error: %s", err)
 	}
 
+	log.Println("[info] Validation of builder lists to prevent empty set of strings.")
+	validateBuilderLists(builder)
+	log.Println("[info] Validation of builder lists passed.")
+
 	log.Println("[info] Generating output file: output.json")
 	outputFile, err := json.Marshal(builder)
 	if err != nil {
@@ -114,4 +119,16 @@ func getEnv(key string, defaultVal string) string {
 	}
 
 	return defaultVal
+}
+
+// validateBuilderLists func - check if any set of strings is empty
+func validateBuilderLists(builder Builder) {
+	v := reflect.ValueOf(builder)
+	for i := 0; i < v.NumField(); i++ {
+		field := v.Field(i)
+		if field.Kind() == reflect.Slice && field.Len() == 0 {
+			fieldName := v.Type().Field(i).Name
+			log.Fatalf("[error] Validation of builder lists failed. Empty list: %s.\n", fieldName)
+		}
+	}
 }
