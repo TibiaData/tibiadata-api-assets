@@ -3084,18 +3084,6 @@
       "type": "guildhall"
     },
     {
-      "name": "Caveman Shelter",
-      "house_id": 15001,
-      "town": "Farmine",
-      "type": "house"
-    },
-    {
-      "name": "Eastern House of Tranquility",
-      "house_id": 15002,
-      "town": "Farmine",
-      "type": "house"
-    },
-    {
       "name": "Old Sanctuary of God King Qjell",
       "house_id": 17001,
       "town": "Gray Beach",
