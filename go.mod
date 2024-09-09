@@ -1,7 +1,6 @@
 module github.com/TibiaData/tibiadata-api-assets
 
-go 1.22
-toolchain go1.23.1
+go 1.23
 
 require (
 	github.com/PuerkitoBio/goquery v1.10.0
