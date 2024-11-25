@@ -6335,9 +6335,19 @@
       "name": "Brimstone Bug"
     },
     {
+      "endpoint": "brinebruteinferniarch",
+      "plural_name": "Brinebrute Inferniarches",
+      "name": "Brinebrute Inferniarch"
+    },
+    {
       "endpoint": "degeneratedshaper",
       "plural_name": "Broken Shapers",
       "name": "Broken Shaper"
+    },
+    {
+      "endpoint": "broodriderinferniarch",
+      "plural_name": "Broodrider Inferniarches",
+      "name": "Broodrider Inferniarch"
     },
     {
       "endpoint": "bug",
@@ -7335,6 +7345,11 @@
       "name": "Gorerilla"
     },
     {
+      "endpoint": "gorgerinferniarch",
+      "plural_name": "Gorger Inferniarches",
+      "name": "Gorger Inferniarch"
+    },
+    {
       "endpoint": "gozzler",
       "plural_name": "Gozzlers",
       "name": "Gozzler"
@@ -7413,6 +7428,11 @@
       "endpoint": "hellhound",
       "plural_name": "Hellhounds",
       "name": "Hellhound"
+    },
+    {
+      "endpoint": "hellhunterinferniarch",
+      "plural_name": "Hellhunter Inferniarches",
+      "name": "Hellhunter Inferniarch"
     },
     {
       "endpoint": "hellspawn",
@@ -8600,6 +8620,11 @@
       "name": "Silver Rabbit"
     },
     {
+      "endpoint": "sineaterinferniarch",
+      "plural_name": "Sineater Inferniarches",
+      "name": "Sineater Inferniarch"
+    },
+    {
       "endpoint": "skeletonelite",
       "plural_name": "Skeleton Elite Warriors",
       "name": "Skeleton Elite "
@@ -8678,6 +8703,11 @@
       "endpoint": "spectre",
       "plural_name": "Spectres",
       "name": "Spectre"
+    },
+    {
+      "endpoint": "spellreaperinferniarch",
+      "plural_name": "Spellreaper Inferniarches",
+      "name": "Spellreaper Inferniarch"
     },
     {
       "endpoint": "sphinx",
@@ -9793,7 +9823,7 @@
     },
     {
       "name": "Nature's Embrace",
-      "formula": "exura gran sio para",
+      "formula": "exura gran sio \"name\"",
       "endpoint": "naturesembrace"
     },
     {
