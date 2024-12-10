@@ -5,7 +5,7 @@ on:
     - cron: "37 */2 * * *" # this is UTC
   push:
     branches:
-      - "main"
+      - main
     paths:
       - "src/**"
       - "go.mod"
@@ -67,4 +67,4 @@ jobs:
       - name: Dispatch GitHub Pages deployment
         uses: peter-evans/repository-dispatch@v3
         with:
-          event-type: github-pages
+          event-type: tibiadata-api-assets-deploy
