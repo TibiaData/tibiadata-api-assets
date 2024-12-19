@@ -27,12 +27,13 @@ jobs:
           go-version-file: go.mod
 
       - name: Connect to Tailnet
-        uses: tailscale/github-action@v2
+        uses: tailscale/github-action@v3
         with:
           args: --accept-dns=true
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:github-runner
+          version: latest
 
       - name: Run go code
         run: |
