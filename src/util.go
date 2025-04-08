@@ -37,6 +37,7 @@ var (
 		"lostsoulmedium":         "Mean Lost Soul",
 		"asuranight":             "Midnight Asura",
 		"lionmonk":               "Monk Of The Order",
+		"monksapparition":        "Monk's Apparition",
 		"moohtahwarrior":         "Mooh'tah Warrior",
 		"cultnovice":             "Novice Of The Cult",
 		"paladinsapparition":     "Paladin's Apparition",
