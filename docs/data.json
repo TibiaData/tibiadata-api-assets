@@ -7963,6 +7963,11 @@
       "name": "Mitmah Seer"
     },
     {
+      "endpoint": "monksapparition",
+      "plural_name": "Monk's Apparitions",
+      "name": "Monk's Apparition"
+    },
+    {
       "endpoint": "monk",
       "plural_name": "Monks",
       "name": "Monk"
@@ -9320,6 +9325,11 @@
       "endpoint": "avalancherune"
     },
     {
+      "name": "Avatar of Balance",
+      "formula": "uteta res tio",
+      "endpoint": "avatarofbalance"
+    },
+    {
       "name": "Avatar of Light",
       "formula": "uteta res sac",
       "endpoint": "avataroflight"
@@ -9338,6 +9348,11 @@
       "name": "Avatar of Storm",
       "formula": "uteta res ven",
       "endpoint": "avatarofstorm"
+    },
+    {
+      "name": "Balanced Brawl",
+      "formula": "exori mas res",
+      "endpoint": "balancedbrawl"
     },
     {
       "name": "Berserk",
@@ -9373,6 +9388,11 @@
       "name": "Cancel Magic Shield",
       "formula": "exana vita",
       "endpoint": "cancelmagicshield"
+    },
+    {
+      "name": "Chained Penance",
+      "formula": "exori med pug",
+      "endpoint": "chainedpenance"
     },
     {
       "name": "Challenge",
@@ -9470,6 +9490,11 @@
       "endpoint": "destroyfieldrune"
     },
     {
+      "name": "Devastating Knockout",
+      "formula": "exori gran nia",
+      "endpoint": "devastatingknockout"
+    },
+    {
       "name": "Disintegrate Rune",
       "formula": "adito tera",
       "endpoint": "disintegraterune"
@@ -9503,6 +9528,11 @@
       "name": "Divine Missile",
       "formula": "exori san",
       "endpoint": "divinemissile"
+    },
+    {
+      "name": "Double Jab",
+      "formula": "exori pug",
+      "endpoint": "doublejab"
     },
     {
       "name": "Electrify",
@@ -9548,6 +9578,11 @@
       "name": "Energy Wave",
       "formula": "exevo vis hur",
       "endpoint": "energywave"
+    },
+    {
+      "name": "Enlighten Party",
+      "formula": "utevo mas sio",
+      "endpoint": "enlightenparty"
     },
     {
       "name": "Envenom",
@@ -9630,9 +9665,29 @@
       "endpoint": "flamestrike"
     },
     {
+      "name": "Flurry of Blows",
+      "formula": "exori mas pug",
+      "endpoint": "flurryofblows"
+    },
+    {
+      "name": "Focus Harmony",
+      "formula": "utevo nia",
+      "endpoint": "focusharmony"
+    },
+    {
+      "name": "Focus Serenity",
+      "formula": "utamo tio",
+      "endpoint": "focusserenity"
+    },
+    {
       "name": "Food",
       "formula": "exevo pan",
       "endpoint": "food"
+    },
+    {
+      "name": "Forceful Uppercut",
+      "formula": "exori gran pug",
+      "endpoint": "forcefuluppercut"
     },
     {
       "name": "Front Sweep",
@@ -9663,6 +9718,16 @@
       "name": "Great Light",
       "formula": "utevo gran lux",
       "endpoint": "greatlight"
+    },
+    {
+      "name": "Greater Flurry of Blows",
+      "formula": "exori gran mas pug",
+      "endpoint": "greaterflurryofblows"
+    },
+    {
+      "name": "Greater Tiger Clash",
+      "formula": "exori nia",
+      "endpoint": "greatertigerclash"
     },
     {
       "name": "Groundshaker",
@@ -9820,9 +9885,24 @@
       "endpoint": "masshealing"
     },
     {
+      "name": "Mass Spirit Mend",
+      "formula": "exura mas nia",
+      "endpoint": "massspiritmend"
+    },
+    {
+      "name": "Mentor Other",
+      "formula": "uteta tio \"name\"",
+      "endpoint": "mentorother"
+    },
+    {
       "name": "Mud Attack",
       "formula": "exori infir tera",
       "endpoint": "mudattack"
+    },
+    {
+      "name": "Mystic Repulse",
+      "formula": "exori amp pug",
+      "endpoint": "mysticrepulse"
     },
     {
       "name": "Nature's Embrace",
@@ -9880,6 +9960,11 @@
       "endpoint": "restoration"
     },
     {
+      "name": "Restore Balance",
+      "formula": "exura tio sio \"name\"",
+      "endpoint": "restorebalance"
+    },
+    {
       "name": "Salvation",
       "formula": "exura gran san",
       "endpoint": "salvation"
@@ -9903,6 +9988,16 @@
       "name": "Soulfire Rune",
       "formula": "adevo res flam",
       "endpoint": "soulfirerune"
+    },
+    {
+      "name": "Spirit Mend",
+      "formula": "exura gran tio",
+      "endpoint": "spiritmend"
+    },
+    {
+      "name": "Spiritual Outburst",
+      "formula": "exori gran mas nia",
+      "endpoint": "spiritualoutburst"
     },
     {
       "name": "Stalagmite Rune",
@@ -9970,6 +10065,11 @@
       "endpoint": "summonknightfamiliar"
     },
     {
+      "name": "Summon Monk Familiar",
+      "formula": "utevo gran res tio",
+      "endpoint": "summonmonkfamiliar"
+    },
+    {
       "name": "Summon Paladin Familiar",
       "formula": "utevo gran res sac",
       "endpoint": "summonpaladinfamiliar"
@@ -9980,9 +10080,19 @@
       "endpoint": "summonsorcererfamiliar"
     },
     {
+      "name": "Sweeping Takedown",
+      "formula": "exori mas nia",
+      "endpoint": "sweepingtakedown"
+    },
+    {
       "name": "Swift Foot",
       "formula": "utamo tempo san",
       "endpoint": "swiftfoot"
+    },
+    {
+      "name": "Swift Jab",
+      "formula": "exori infir pug",
+      "endpoint": "swiftjab"
     },
     {
       "name": "Terra Burst",
@@ -10003,6 +10113,11 @@
       "name": "Thunderstorm Rune",
       "formula": "adori mas vis",
       "endpoint": "thunderstormrune"
+    },
+    {
+      "name": "Tiger Clash",
+      "formula": "exori infir nia",
+      "endpoint": "tigerclash"
     },
     {
       "name": "Train Party",
@@ -10043,6 +10158,21 @@
       "name": "Ultimate Terra Strike",
       "formula": "exori max tera",
       "endpoint": "ultimateterrastrike"
+    },
+    {
+      "name": "Virtue of Harmony",
+      "formula": "utori virtu",
+      "endpoint": "virtueofharmony"
+    },
+    {
+      "name": "Virtue of Justice",
+      "formula": "utito virtu",
+      "endpoint": "virtueofjustice"
+    },
+    {
+      "name": "Virtue of Sustain",
+      "formula": "utura tio",
+      "endpoint": "virtueofsustain"
     },
     {
       "name": "Whirlwind Throw",
