@@ -6271,6 +6271,11 @@
       "name": "Blue Djinn"
     },
     {
+      "endpoint": "bluebeak",
+      "plural_name": "Bluebeaks",
+      "name": "Bluebeak"
+    },
+    {
       "endpoint": "boarman",
       "plural_name": "Boar Men",
       "name": "Boar Man"
@@ -6324,6 +6329,11 @@
       "endpoint": "braindeath",
       "plural_name": "Braindeaths",
       "name": "Braindeath"
+    },
+    {
+      "endpoint": "bramblewyrmling",
+      "plural_name": "Bramble Wyrmlings",
+      "name": "Bramble Wyrmling"
     },
     {
       "endpoint": "ghostlycrawler",
@@ -6496,6 +6506,11 @@
       "name": "Choking Fear"
     },
     {
+      "endpoint": "cinderwyrmling",
+      "plural_name": "Cinder Wyrmlings",
+      "name": "Cinder Wyrmling"
+    },
+    {
       "endpoint": "clayguardian",
       "plural_name": "Clay Guardians",
       "name": "Clay Guardian"
@@ -6609,6 +6624,11 @@
       "endpoint": "crocodile",
       "plural_name": "Crocodiles",
       "name": "Crocodile"
+    },
+    {
+      "endpoint": "crusader",
+      "plural_name": "Crusaders",
+      "name": "Crusader"
     },
     {
       "endpoint": "crustaceagigantica",
@@ -6966,6 +6986,11 @@
       "name": "Dworc Fleshhunter"
     },
     {
+      "endpoint": "norcferatudworc",
+      "plural_name": "Dworc Shadowstalkers",
+      "name": "Dworc Shadowstalkers"
+    },
+    {
       "endpoint": "dworcvenomsniper",
       "plural_name": "Dworc Venomsnipers",
       "name": "Dworc Venomsniper"
@@ -7281,6 +7306,11 @@
       "name": "Gladiator"
     },
     {
+      "endpoint": "batface",
+      "plural_name": "Gloom Maws",
+      "name": "Gloom Maws"
+    },
+    {
       "endpoint": "gloomwolf",
       "plural_name": "Gloom Wolves",
       "name": "Gloom Wolf"
@@ -7416,9 +7446,19 @@
       "name": "Haunted Treeling"
     },
     {
+      "endpoint": "hawkhopper",
+      "plural_name": "Hawk Hoppers",
+      "name": "Hawk Hopper"
+    },
+    {
       "endpoint": "headpecker",
       "plural_name": "Headpeckers",
       "name": "Headpecker"
+    },
+    {
+      "endpoint": "headwalker",
+      "plural_name": "Headwalkers",
+      "name": "Headwalker"
     },
     {
       "endpoint": "hellfirefighter",
@@ -7694,6 +7734,11 @@
       "endpoint": "liodileman",
       "plural_name": "Liodiles",
       "name": "Liodileman"
+    },
+    {
+      "endpoint": "lionhydra",
+      "plural_name": "Lion Hydras",
+      "name": "Lion Hydra"
     },
     {
       "endpoint": "lion",
@@ -8081,6 +8126,16 @@
       "name": "Nomad"
     },
     {
+      "endpoint": "norcferatuheartless",
+      "plural_name": "Norcferatu Heartlesses",
+      "name": "Norcferatu Heartless"
+    },
+    {
+      "endpoint": "norcferatunightweaver",
+      "plural_name": "Norcferatu Nightweavers",
+      "name": "Norcferatu Nightweaver"
+    },
+    {
       "endpoint": "northernpike",
       "plural_name": "Northern Pikes",
       "name": "Northern Pike"
@@ -8209,6 +8264,11 @@
       "endpoint": "orcwarrior",
       "plural_name": "Orc Warriors",
       "name": "Orc Warrior"
+    },
+    {
+      "endpoint": "norcferatuorclops",
+      "plural_name": "Orclops Bloodbreakers",
+      "name": "Orclops Bloodbreakers"
     },
     {
       "endpoint": "orclops",
@@ -8599,6 +8659,11 @@
       "endpoint": "sheep",
       "plural_name": "Sheep",
       "name": "Sheep"
+    },
+    {
+      "endpoint": "shelldrake",
+      "plural_name": "Shell Drakes",
+      "name": "Shell Drake"
     },
     {
       "endpoint": "shockhead",
@@ -9029,6 +9094,11 @@
       "endpoint": "vampire",
       "plural_name": "Vampires",
       "name": "Vampire"
+    },
+    {
+      "endpoint": "varg",
+      "plural_name": "Vargs",
+      "name": "Varg"
     },
     {
       "endpoint": "varnisheddiremaw",
