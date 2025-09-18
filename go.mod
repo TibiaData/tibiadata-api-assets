@@ -1,4 +1,4 @@
-module github.com/TibiaData/tibiadata-api-assets
+module github.com/tibiadata/tibiadata-api-assets
 
 go 1.25.0
 
